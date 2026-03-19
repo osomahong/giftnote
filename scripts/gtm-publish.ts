@@ -123,7 +123,7 @@ async function main() {
   const existingTagNames = new Set(existingTags.map((t: any) => t.name))
 
   // 1. GA4 설정 변수 (측정 ID)
-  const configVarName = 'GA4 Measurement ID'
+  const configVarName = 'GA4 - 측정 ID'
   if (!existingVarNames.has(configVarName)) {
     console.log(`변수 생성: ${configVarName}`)
     await api(token, 'POST', `/${wsPath}/variables`, {
@@ -164,7 +164,7 @@ async function main() {
   const triggerIds: Record<string, string> = {}
 
   for (const event of uniqueEvents) {
-    const triggerName = `CE - ${event.name} (${event.selector})`
+    const triggerName = `Event - ${event.name}`
     if (existingTriggerNames.has(triggerName)) {
       const existing = existingTriggers.find((t: any) => t.name === triggerName)
       if (existing) triggerIds[triggerName] = existing.triggerId
@@ -188,8 +188,8 @@ async function main() {
 
   // 4. GA4 이벤트 태그 생성
   for (const event of uniqueEvents) {
-    const tagName = `GA4 - ${event.name} (${event.selector})`
-    const triggerName = `CE - ${event.name} (${event.selector})`
+    const tagName = `GA4 - Event - ${event.trigger}`
+    const triggerName = `Event - ${event.name}`
     if (existingTagNames.has(tagName)) {
       console.log(`  스킵 (이미 존재): ${tagName}`)
       continue
