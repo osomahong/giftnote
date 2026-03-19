@@ -5,6 +5,12 @@
 ## 입력
 - persona, interest, budget, occasion 조합
 
+## 큐레이터 배정 성별 규칙
+- "여자친구 선물" 콘텐츠 → 남성 큐레이터만 (Eric, James, Leo, Owen)
+- "남자친구 선물" 콘텐츠 → 여성 큐레이터만 (Clair, Hana, Mina, Yuna)
+- "부모님/직장동료/친구" → 성별 무관
+- 위반 시 자동으로 적합한 큐레이터로 교체
+
 ## 작업
 1. slug 생성: `{interest}-{ageGroup}-{gender}-{budget}-{occasion}` 형식
 2. 태그 3~5개 선정 (아래 표준 태그에서만 선택, 새 태그 생성 최소화)

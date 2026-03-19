@@ -35,7 +35,7 @@ const CURATORS: CuratorInfo[] = [
     gender: 'male',
     age: 'early 30s',
     personality: '꼼꼼한 리서처',
-    visualHint: 'neat short hair, glasses, smart casual outfit with a collared shirt, holding a tablet, analytical and organized look',
+    visualHint: 'neat short hair, wearing glasses, slight smile, clean-shaven',
   },
   {
     id: 'clair',
@@ -43,7 +43,7 @@ const CURATORS: CuratorInfo[] = [
     gender: 'female',
     age: 'mid 20s',
     personality: '센스있는 선물러',
-    visualHint: 'stylish bob hair, warm smile, wearing a soft knit sweater, holding a wrapped gift box, cheerful and fashionable',
+    visualHint: 'bob cut hair, bright smile, small earrings',
   },
   {
     id: 'james',
@@ -51,7 +51,7 @@ const CURATORS: CuratorInfo[] = [
     gender: 'male',
     age: 'early 40s',
     personality: '넉넉한 형/선배',
-    visualHint: 'well-groomed short hair, slight beard, wearing a navy blazer over turtleneck, confident and mature, warm expression',
+    visualHint: 'short hair, short beard, confident warm expression, mature look',
   },
   {
     id: 'hana',
@@ -59,7 +59,7 @@ const CURATORS: CuratorInfo[] = [
     gender: 'female',
     age: 'mid 30s',
     personality: '현실적 살림러',
-    visualHint: 'shoulder-length hair tied back, comfortable apron over casual clothes, holding a kitchen utensil, practical and friendly',
+    visualHint: 'hair tied back in ponytail, friendly natural smile',
   },
   {
     id: 'leo',
@@ -67,7 +67,7 @@ const CURATORS: CuratorInfo[] = [
     gender: 'male',
     age: 'late 20s',
     personality: '활동적인 행동파',
-    visualHint: 'athletic build, sporty short hair, wearing a hoodie and sneakers, energetic pose, holding a gym bag, active lifestyle',
+    visualHint: 'normal short hair, relaxed natural smile, casual everyday look',
   },
   {
     id: 'mina',
@@ -75,7 +75,7 @@ const CURATORS: CuratorInfo[] = [
     gender: 'female',
     age: 'early 30s',
     personality: '안목있는 디자이너',
-    visualHint: 'sleek long hair, minimalist outfit in black and white, wearing designer earrings, holding a coffee cup, sophisticated and artistic',
+    visualHint: 'long straight hair, minimal makeup, elegant and calm expression',
   },
   {
     id: 'owen',
@@ -83,7 +83,7 @@ const CURATORS: CuratorInfo[] = [
     gender: 'male',
     age: 'mid 30s',
     personality: '사려깊은 이야기꾼',
-    visualHint: 'gentle medium-length hair, wearing a cozy cardigan, holding a book, thoughtful expression, warm and literary atmosphere',
+    visualHint: 'medium wavy hair, gentle thoughtful smile, soft eyes',
   },
   {
     id: 'yuna',
@@ -91,7 +91,7 @@ const CURATORS: CuratorInfo[] = [
     gender: 'female',
     age: 'mid 20s',
     personality: '트렌드 리서처',
-    visualHint: 'trendy layered hair, wearing a cropped jacket, holding a smartphone, modern and energetic, social media savvy look',
+    visualHint: 'layered medium hair, playful smile, trendy bangs',
   },
 ]
 
@@ -102,7 +102,7 @@ async function generateProfile(curator: CuratorInfo): Promise<void> {
     return
   }
 
-  const prompt = `Create a character illustration profile picture of a Korean ${curator.gender}, ${curator.age}. ${curator.visualHint}. Style: modern flat illustration with soft pastel colors, clean lines, white background, portrait bust shot, friendly and approachable. No text, no letters, no words. Square composition.`
+  const prompt = `Simple black and white line drawing portrait of an ordinary everyday Korean ${curator.gender}, ${curator.age}. Natural Korean face: straight black hair, small nose, natural eyes, oval face. ${curator.visualHint}. Looking like someone you would see on a Korean street, not a model or celebrity. Very ordinary and approachable. Style: bold black ink lines on pure white background, minimal detail, hand-drawn sketch, Korean webtoon style. Head and shoulders only. Thick outlines, no shading, no gray, no color. No text. Square.`
 
   console.log(`  생성 중: ${curator.id} (${curator.name})...`)
 

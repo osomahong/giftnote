@@ -13,6 +13,7 @@ import { ExitBottomSheet } from '@/components/recommendation/ExitBottomSheet'
 import { Breadcrumb } from '@/components/layout/Breadcrumb'
 import { getTagStyle } from '@/lib/tags'
 import { getOccasionColor } from '@/lib/occasion-colors'
+import { getCuratorProfile } from '@/lib/curators'
 
 type Props = { params: Promise<{ slug: string }> }
 
@@ -98,7 +99,7 @@ export default async function CollectionPage({ params }: Props) {
 
         <PageHeader collection={collection} occasionColor={getOccasionColor(collection.occasion)} />
         <TargetProfileSection targets={collection.targets} />
-        <Editorial editorial={collection.editorial} />
+        <Editorial editorial={collection.editorial} curator={collection.curator ? getCuratorProfile(collection.curator) : null} />
 
         <section aria-label="추천 상품 목록">
           <h2 className="text-lg font-bold text-text mb-4">추천 상품 TOP {collection.products.length}</h2>
