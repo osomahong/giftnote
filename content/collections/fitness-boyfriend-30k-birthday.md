@@ -105,7 +105,7 @@ products:
     source: naver
     sourceUrl: 'https://search.shopping.naver.com/search/all?query=아레나+습식+스포츠타올+대형'
     affiliateUrl: 'https://search.shopping.naver.com/search/all?query=아레나+습식+스포츠타올+대형'
-    image: 'https://img.danawa.com/prod_img/500000/698/692/img/16692698_1.jpg'
+    image: 'https://img.danawa.com/prod_img/500000/064/504/img/13504064_1.jpg?shrink=330:330&_v=20230228093228'
     category: 스포츠타월
     isEditorPick: false
     reason: '일반 타올보다 흡수력이 3배 좋고, 짜면 다시 사용 가능합니다. 헬스장과 수영장 어디서든 활용도가 높아요.'

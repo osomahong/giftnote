@@ -18,7 +18,9 @@
 1. gift-theme-planner → 테마 기획 + 큐레이터 배정
 2. gift-crawl-products → 상품 크롤링 (건너뛰기 불가)
 3. **coupang-deeplink.ts 실행** → 쿠팡 상품 자동 검증 + 딥링크
-4. gift-story-writer → 에디토리얼 작성 (큐레이터 톤 반영)
+4. **naver-price-check.ts 실행** → 네이버 상품 최저가 조회 + 가격 업데이트
+5. **이미지 교차 검증** → 컬렉션 내 이미지 URL 중복 체크, 중복 시 재검색
+6. gift-story-writer → 에디토리얼 작성 (큐레이터 톤 반영)
 5. gift-reason-explainer → 추천 이유 작성
 6. gift-faq-generator → FAQ 생성
 7. gift-aeo-writer → AEO 최적화
