@@ -91,7 +91,7 @@ export default async function CollectionPage({ params }: Props) {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
       />
 
-      <article className="max-w-4xl mx-auto px-4 py-12">
+      <article className="max-w-4xl mx-auto px-3 md:px-4 py-6 md:py-12">
         <Breadcrumb items={[
           { label: '선물 추천', href: '/' },
           { label: collection.title },

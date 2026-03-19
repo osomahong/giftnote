@@ -41,13 +41,13 @@ export function TargetProfileSection({ targets }: { targets: TargetProfile[] }) 
       <h2 className="text-lg font-bold text-text mb-4">이런 분께 어울려요</h2>
       <div className="space-y-3">
         {targets.map((target, i) => (
-          <div key={i} className="flex items-start gap-4 p-5 bg-surface rounded-3xl border border-border/50 shadow-md">
-            <span className="shrink-0 w-10 h-10 rounded-full bg-accent/8 text-accent flex items-center justify-center mt-0.5">
+          <div key={i} className="flex items-start gap-3 p-4 md:p-5 bg-surface rounded-2xl border border-border/50 shadow-sm">
+            <span className="shrink-0 w-9 h-9 rounded-full bg-accent/8 text-accent flex items-center justify-center mt-0.5">
               {iconMap[target.icon]}
             </span>
-            <div>
-              <p className="text-base font-bold text-text">{target.label}</p>
-              <p className="text-sm text-text-secondary mt-1 leading-relaxed">
+            <div className="min-w-0">
+              <p className="text-sm md:text-base font-bold text-text">{target.label}</p>
+              <p className="text-xs md:text-sm text-text-secondary mt-1 leading-relaxed">
                 {target.description.split(/(?<=\.) (?=[''"「])/).map((part, j, arr) => (
                   <span key={j}>
                     {part}{j < arr.length - 1 && <br />}

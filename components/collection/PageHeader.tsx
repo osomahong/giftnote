@@ -34,31 +34,30 @@ export function PageHeader({ collection, occasionColor }: {
 }) {
 
   return (
-    <header className="mb-10">
-      <div className="flex flex-wrap gap-2 justify-center mb-5">
+    <header className="mb-8">
+      <div className="flex flex-wrap gap-1.5 justify-center mb-4">
         <TagChip label={collection.persona} variant="persona" />
         <TagChip label={collection.budgetTier} variant="budget" />
         <TagChip label={collection.occasion} variant="occasion" />
       </div>
-      <h1 itemProp="headline" className="text-3xl md:text-4xl font-bold text-center text-text leading-snug mb-4">
+      <h1 itemProp="headline" className="text-2xl md:text-4xl font-bold text-center text-text leading-tight mb-3">
         {collection.title}
       </h1>
-      <p className="text-center text-text-secondary text-base max-w-xl mx-auto mb-5 leading-relaxed">
+      <p className="text-center text-text-secondary text-sm md:text-base max-w-xl mx-auto mb-4 leading-relaxed px-2">
         {collection.description}
       </p>
-      <div className="flex items-center justify-center gap-3 text-sm text-text-secondary">
+      <div className="flex flex-col sm:flex-row items-center justify-center gap-2 text-sm text-text-secondary">
         {collection.curator && (() => {
           const curator = getCuratorProfile(collection.curator)
           if (!curator) return null
           return (
             <span className="flex items-center gap-2">
               <img src={curator.image} alt={curator.name} className="w-7 h-7 rounded-full object-cover" />
-              <span className="font-medium text-text">{curator.label}</span>
+              <span className="font-medium text-text text-xs sm:text-sm">{curator.label}</span>
             </span>
           )
         })()}
-        {collection.curator && <span className="text-text-muted">·</span>}
-        <time itemProp="datePublished" dateTime={collection.datePublished} className="text-text-muted">{collection.datePublished}</time>
+        <time itemProp="datePublished" dateTime={collection.datePublished} className="text-text-muted text-xs">{collection.datePublished}</time>
       </div>
     </header>
   )

@@ -7,7 +7,7 @@ function RelatedCard({ collection, section = 'content' }: { collection: Collecti
   return (
     <Link
       href={`/collection/${collection.slug}/`}
-      className="flex gap-4 p-4 bg-surface rounded-3xl border border-border/50 hover:border-accent/30 shadow-md transition-colors group"
+      className="flex gap-3 p-3 md:p-4 bg-surface rounded-2xl border border-border/50 hover:border-accent/30 shadow-sm transition-colors group"
       data-track="related-card"
       data-track-slug={collection.slug}
       data-track-section={section}

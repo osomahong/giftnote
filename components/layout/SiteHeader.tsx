@@ -9,7 +9,7 @@ export function SiteHeader() {
       <div className="max-w-6xl mx-auto px-4 h-14 flex items-center justify-between">
         <Link href="/" className="flex items-center gap-2.5">
           <img src="/svg/logo-symbol.svg" alt="" className="h-8 w-8" aria-hidden="true" />
-          <img src="/svg/logo.svg" alt="기프트노트" className="h-6 hidden sm:block" />
+          <img src="/svg/logo.svg" alt="기프트노트" className="h-6" />
         </Link>
         <nav className="flex items-center gap-1">
           {tags.map((tag) => (

@@ -34,7 +34,7 @@ export function FaqSection({ faqs }: { faqs: FAQ[] }) {
       <h2 className="text-lg font-bold text-text mb-4">자주 묻는 질문</h2>
       <dl className="space-y-3">
         {faqs.map((faq, i) => (
-          <details key={i} className="group bg-surface rounded-3xl border border-border/50 shadow-md" data-track="faq-item" data-track-question={faq.question}>
+          <details key={i} className="group bg-surface rounded-2xl border border-border/50 shadow-sm" data-track="faq-item" data-track-question={faq.question}>
             <summary className="flex items-center justify-between p-4 cursor-pointer list-none">
               <dt className="font-medium text-sm text-text pr-4">{faq.question}</dt>
               <svg

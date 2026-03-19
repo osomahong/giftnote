@@ -6,14 +6,14 @@ export function Editorial({ editorial, curator }: { editorial: EditorialType; cu
 
   return (
     <section aria-label="에디터 노트" className="mb-8">
-      <div className="bg-surface rounded-3xl border border-border/50 p-6 shadow-md">
-        <div className={curator ? 'flex gap-5' : ''}>
+      <div className="bg-surface rounded-2xl border border-border/50 p-4 md:p-6 shadow-sm">
+        <div className={curator ? 'flex gap-4' : ''}>
           {curator && (
             <div className="shrink-0 hidden sm:flex flex-col items-center gap-2 pt-1">
               <img
                 src={curator.image}
                 alt={curator.name}
-                className="w-16 h-16 rounded-full object-cover"
+                className="w-14 h-14 rounded-full object-cover"
               />
               <span className="text-xs font-medium text-text-muted">{curator.name}</span>
             </div>
@@ -33,7 +33,7 @@ export function Editorial({ editorial, curator }: { editorial: EditorialType; cu
             </div>
             <div className="editorial-content space-y-3">
               {editorial.body.map((paragraph, i) => (
-                <p key={i} className="text-sm text-text-secondary leading-relaxed">
+                <p key={i} className="text-xs md:text-sm text-text-secondary leading-relaxed">
                   {paragraph}
                 </p>
               ))}
