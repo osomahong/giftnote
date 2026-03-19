@@ -35,18 +35,18 @@ export function PageHeader({ collection, occasionColor }: {
 
   return (
     <header className="mb-8">
-      <div className="flex flex-wrap gap-1.5 justify-center mb-4">
+      <div className="flex flex-wrap gap-1.5 justify-start md:justify-center mb-4">
         <TagChip label={collection.persona} variant="persona" />
         <TagChip label={collection.budgetTier} variant="budget" />
         <TagChip label={collection.occasion} variant="occasion" />
       </div>
-      <h1 itemProp="headline" className="text-2xl md:text-4xl font-bold text-center text-text leading-tight mb-3">
+      <h1 itemProp="headline" className="text-xl md:text-4xl font-bold text-left md:text-center text-text leading-snug mb-3 break-keep">
         {collection.title}
       </h1>
-      <p className="text-center text-text-secondary text-sm md:text-base max-w-xl mx-auto mb-4 leading-relaxed px-2">
+      <p className="text-left md:text-center text-text-secondary text-sm md:text-base max-w-xl mx-auto mb-4 leading-relaxed break-keep">
         {collection.description}
       </p>
-      <div className="flex flex-col sm:flex-row items-center justify-center gap-2 text-sm text-text-secondary">
+      <div className="flex flex-col sm:flex-row items-start md:items-center justify-start md:justify-center gap-2 text-sm text-text-secondary">
         {collection.curator && (() => {
           const curator = getCuratorProfile(collection.curator)
           if (!curator) return null
