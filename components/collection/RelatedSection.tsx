@@ -1,6 +1,7 @@
 import Link from 'next/link'
 import type { Collection } from '@/lib/types'
 import { getPublishedCollections } from '@/lib/content'
+import { getCuratorProfile } from '@/lib/curators'
 
 function RelatedCard({ collection, section = 'content' }: { collection: Collection; section?: 'content' | 'curator' }) {
   return (
@@ -85,9 +86,15 @@ export function RelatedSection({ current, curatorName }: { current: Collection; 
 
       {curatorRelated.length > 0 && curatorName && (
         <section aria-label={`${curatorName}의 다른 큐레이션`} className="mb-8">
-          <h2 className="text-lg font-bold text-text mb-4">
-            {curatorName}가 추천하는 또 다른 선물 리스트
-          </h2>
+          {(() => {
+            const curator = current.curator ? getCuratorProfile(current.curator) : null
+            return (
+              <h2 className="text-lg font-bold text-text mb-4 flex items-center gap-2">
+                {curator && <img src={curator.image} alt={curator.name} className="w-8 h-8 rounded-full object-cover" />}
+                {curatorName}가 추천하는 또 다른 선물 리스트
+              </h2>
+            )
+          })()}
           <div className="space-y-3">
             {curatorRelated.map((collection) => (
               <RelatedCard key={collection.slug} collection={collection} section="curator" />

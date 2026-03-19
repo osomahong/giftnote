@@ -96,7 +96,7 @@ export default async function CollectionPage({ params }: Props) {
           { label: collection.title },
         ]} />
 
-        <PageHeader collection={collection} slug={slug} occasionColor={getOccasionColor(collection.occasion)} />
+        <PageHeader collection={collection} occasionColor={getOccasionColor(collection.occasion)} />
         <TargetProfileSection targets={collection.targets} />
         <Editorial editorial={collection.editorial} />
 

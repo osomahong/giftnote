@@ -8,7 +8,7 @@ type Props = { params: Promise<{ tag: string }> }
 
 export async function generateStaticParams() {
   const tags = getAllTags()
-  return tags.map((tag) => ({ tag }))
+  return tags.map((tag) => ({ tag: encodeURIComponent(tag) }))
 }
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {

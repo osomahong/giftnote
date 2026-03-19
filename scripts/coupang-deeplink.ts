@@ -267,10 +267,16 @@ async function main() {
       if ((entry.result === 'matched' || entry.result === 'alt-matched') && entry.matchedProduct) {
         product.sourceUrl = entry.matchedProduct.productUrl
         product.affiliateUrl = entry.matchedProduct.productUrl
-        product.image = entry.matchedProduct.productImage
         product.price = entry.matchedProduct.productPrice
+        // 쿠팡 API 이미지(ads-partners.coupang.com)는 광고 배너이므로 사용 금지
+        // 이미지는 기존 것을 유지하거나, 별도 다나와/네이버에서 수집해야 함
+        if (entry.matchedProduct.productImage && !entry.matchedProduct.productImage.includes('ads-partners.coupang.com')) {
+          product.image = entry.matchedProduct.productImage
+        } else {
+          console.log(`  ⚠️ ${file} #${product.rank}: 쿠팡 광고 이미지 무시 (기존 이미지 유지)`)
+        }
         updated = true
-        console.log(`  ✅ ${file} #${product.rank}: 쿠팡 업데이트`)
+        console.log(`  ✅ ${file} #${product.rank}: 쿠팡 업데이트 (링크+가격)`)
       } else if (entry.result === 'switched-to-naver') {
         product.source = 'naver'
         product.sourceUrl = naverSearchUrl(product.name)

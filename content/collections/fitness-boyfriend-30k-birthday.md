@@ -16,8 +16,6 @@ tags:
   - 남자친구
   - 3만원대
   - 운동
-  - 헬스
-  - 실용적
 status: published
 datePublished: '2026-03-19'
 dateModified: '2026-03-19'
@@ -33,8 +31,7 @@ products:
       https://link.coupang.com/re/AFFSDP?lptag=AF3425199&pageKey=6504473928&itemId=26126604108&vendorItemId=93106950953&traceid=V0-153-2a382b09cb4c2c61&clickBeacon=07b49b80-2362-11f1-9ee3-0c7beed7dc63%7E3&requestid=20260319160536804202185213&token=31850C%7CMIXED&landing_exp=APP_LANDING_A
     affiliateUrl: >-
       https://link.coupang.com/re/AFFSDP?lptag=AF3425199&pageKey=6504473928&itemId=26126604108&vendorItemId=93106950953&traceid=V0-153-2a382b09cb4c2c61&clickBeacon=07b49b80-2362-11f1-9ee3-0c7beed7dc63%7E3&requestid=20260319160536804202185213&token=31850C%7CMIXED&landing_exp=APP_LANDING_A
-    image: >-
-      https://ads-partners.coupang.com/image1/nkSYgq0e4m_o2DTXni7BkNOF07UD9_sWP513AdEFUNLd5tqYmx_Q17sSSXnXjj56E-w2YY1ha8dENkqhfl7lTC91H936c8eTmoFtsI5OHXnm2QGPVnOvo0tu6GOIR63w_2vdUZqTcfOy6O1aCGx98V9WfiHchxlzJwbbo3u4dKfNYmZJBg8rOwXt93-iV046N2YyIWjLjY0wHBFDjClEv4z0nKh_LByJftr7mUrk6RiA_2FyNsMwUmFYUgQsBTJjqpvxT4kWdcszbziI8Wo10zCDg0LYJwIQMWSwZMxKLcOaJZ-aEnL4jkKS
+    image: 'https://img.danawa.com/prod_img/500000/238/447/img/13447238_1.jpg'
     category: 쉐이커
     isEditorPick: true
     reason: 보충제 수납 칸이 분리되어 있어 헬스장에서 프로틴과 물을 따로 보관할 수 있습니다. 밀폐력이 좋아 가방에 넣어도 샘 걱정이 없어요.
@@ -57,8 +54,7 @@ products:
       https://link.coupang.com/re/AFFSDP?lptag=AF3425199&pageKey=7810096703&itemId=21181518208&vendorItemId=78798894390&traceid=V0-153-ade5c79c9819dc2d&requestid=20260319160558336047741919&token=31850C%7CMIXED&landing_exp=APP_LANDING_A
     affiliateUrl: >-
       https://link.coupang.com/re/AFFSDP?lptag=AF3425199&pageKey=7810096703&itemId=21181518208&vendorItemId=78798894390&traceid=V0-153-ade5c79c9819dc2d&requestid=20260319160558336047741919&token=31850C%7CMIXED&landing_exp=APP_LANDING_A
-    image: >-
-      https://ads-partners.coupang.com/image1/B0pRnfGBVGqQKyK1BzzeAvdOVSYoLQIx_V8z8421tQKXL9hcMrbG-jAewnSGMgpxR8AWtrxdTYMfsVc57tl--QyMMYv3HhdvA4eWi4FEE0dqQajVXw8HjEdhKAG3yhXcSdbA-p6YXmBbmU4m7PSacQ7-04O_6WXDnIrG2M5tTIGAJqrj6NpYXj7LbLf6VKDeY6vOMbY8SNAJh5tTxhKMpbXWRK__pZnW8eBRbc1hVQcxfdxV1GkcQ-87tuMsqixZn4Kt7VaVE21HeK4hXf40iL07jIX-_nVlnsmus8qNnZe2Y28N
+    image: 'https://www.selexmall.com/data/upload/product/nutsbar_set1.jpg'
     category: 프로틴바
     isEditorPick: false
     reason: 매일유업이 만든 프로틴 너츠바라 품질이 안정적입니다. 선물세트 포장이 되어 있어 별도 포장 없이 바로 전달 가능해요.
@@ -81,8 +77,7 @@ products:
       https://link.coupang.com/re/AFFSDP?lptag=AF3425199&pageKey=8984964209&itemId=26311731338&vendorItemId=93289269580&traceid=V0-153-33b4b90e0c9e06de&clickBeacon=18da1a70-2362-11f1-b265-0eda67cc6ff0%7E3&requestid=20260319160605564202180803&token=31850C%7CMIXED&landing_exp=APP_LANDING_A
     affiliateUrl: >-
       https://link.coupang.com/re/AFFSDP?lptag=AF3425199&pageKey=8984964209&itemId=26311731338&vendorItemId=93289269580&traceid=V0-153-33b4b90e0c9e06de&clickBeacon=18da1a70-2362-11f1-b265-0eda67cc6ff0%7E3&requestid=20260319160605564202180803&token=31850C%7CMIXED&landing_exp=APP_LANDING_A
-    image: >-
-      https://ads-partners.coupang.com/image1/TDFXkwmg4Zm6kZVbTNrx27lBP4wtBrcLTNLuzv4OM_4yHWbXfZiIpJWSJ8AWZZ-2NF_UrKE_uhDQZKTis0b22qO-AxGF-xJmotVLkxXdcMmzLF4xwOZYGiLhEaTR7Jcx_fZHfJftVTkJ-m0TGft5MgP-2WJZ-N10dmPc7bxJSGc-x2V6ZwCd-zGr2OwSTzfOvif-omXbgeKYG9dedyXdeTXAc_O-t9ZXcCJiByYROTCzLegsTEOeKWcgP4vkt9PCbyuZPBtBfpKFIpvY7-raaRjWTJRFfaCkswIacF1edwB5pOnxQBVmru8=
+    image: 'https://img.danawa.com/prod_img/500000/075/367/img/52367075_1.jpg'
     category: 무선이어폰
     isEditorPick: false
     reason: 오픈형이라 러닝 중에도 주변 소리를 들을 수 있어 안전합니다. 2만원대에 블루투스 5.3 지원으로 가성비가 좋아요.
@@ -105,7 +100,8 @@ products:
     source: naver
     sourceUrl: 'https://search.shopping.naver.com/search/all?query=아레나+습식+스포츠타올+대형'
     affiliateUrl: 'https://search.shopping.naver.com/search/all?query=아레나+습식+스포츠타올+대형'
-    image: 'https://img.danawa.com/prod_img/500000/064/504/img/13504064_1.jpg?shrink=330:330&_v=20230228093228'
+    image: >-
+      https://img.danawa.com/prod_img/500000/064/504/img/13504064_1.jpg?shrink=330:330&_v=20230228093228
     category: 스포츠타월
     isEditorPick: false
     reason: '일반 타올보다 흡수력이 3배 좋고, 짜면 다시 사용 가능합니다. 헬스장과 수영장 어디서든 활용도가 높아요.'

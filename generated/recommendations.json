@@ -1,152 +1,20 @@
 {
-  "coworker-thankyou-10k": [
-    {
-      "slug": "sentimental-20s-female-30k-birthday",
-      "title": "감성 가득, 20대 여자친구 생일 선물 추천 5선",
-      "persona": "20대 여성",
-      "budgetTier": "3만원대",
-      "occasion": "생일"
-    },
-    {
-      "slug": "fitness-boyfriend-30k-birthday",
-      "title": "운동하는 남자친구 생일 선물, 실제로 쓰는 5가지",
-      "persona": "20대 남성",
-      "budgetTier": "3만원대",
-      "occasion": "생일"
-    },
-    {
-      "slug": "health-50s-dad-50k-birthday",
-      "title": "50대 아빠 생일 선물, 건강을 챙기는 5가지 방법",
-      "persona": "50대 아빠",
-      "budgetTier": "5만원대",
-      "occasion": "생일"
-    },
-    {
-      "slug": "kitchen-housewarming-20k",
-      "title": "진짜 쓰는 집들이 선물, 주방용품 추천 5선",
-      "persona": "신혼부부",
-      "budgetTier": "2만원대",
-      "occasion": "집들이"
-    }
-  ],
   "fitness-boyfriend-30k-birthday": [
     {
-      "slug": "sentimental-20s-female-30k-birthday",
-      "title": "감성 가득, 20대 여자친구 생일 선물 추천 5선",
+      "slug": "sentimental-girlfriend-20k-birthday",
+      "title": "여자친구 생일 감성 선물 추천 2만원대",
       "persona": "20대 여성",
-      "budgetTier": "3만원대",
-      "occasion": "생일"
-    },
-    {
-      "slug": "health-50s-dad-50k-birthday",
-      "title": "50대 아빠 생일 선물, 건강을 챙기는 5가지 방법",
-      "persona": "50대 아빠",
-      "budgetTier": "5만원대",
-      "occasion": "생일"
-    },
-    {
-      "slug": "kitchen-housewarming-20k",
-      "title": "진짜 쓰는 집들이 선물, 주방용품 추천 5선",
-      "persona": "신혼부부",
       "budgetTier": "2만원대",
-      "occasion": "집들이"
-    },
-    {
-      "slug": "coworker-thankyou-10k",
-      "title": "부담 없이 센스 있게, 직장 동료 감사 선물 추천 5선",
-      "persona": "직장 동료",
-      "budgetTier": "1만원대",
-      "occasion": "감사"
-    }
-  ],
-  "health-50s-dad-50k-birthday": [
-    {
-      "slug": "fitness-boyfriend-30k-birthday",
-      "title": "운동하는 남자친구 생일 선물, 실제로 쓰는 5가지",
-      "persona": "20대 남성",
-      "budgetTier": "3만원대",
-      "occasion": "생일"
-    },
-    {
-      "slug": "sentimental-20s-female-30k-birthday",
-      "title": "감성 가득, 20대 여자친구 생일 선물 추천 5선",
-      "persona": "20대 여성",
-      "budgetTier": "3만원대",
-      "occasion": "생일"
-    },
-    {
-      "slug": "coworker-thankyou-10k",
-      "title": "부담 없이 센스 있게, 직장 동료 감사 선물 추천 5선",
-      "persona": "직장 동료",
-      "budgetTier": "1만원대",
-      "occasion": "감사"
-    },
-    {
-      "slug": "kitchen-housewarming-20k",
-      "title": "진짜 쓰는 집들이 선물, 주방용품 추천 5선",
-      "persona": "신혼부부",
-      "budgetTier": "2만원대",
-      "occasion": "집들이"
-    }
-  ],
-  "kitchen-housewarming-20k": [
-    {
-      "slug": "fitness-boyfriend-30k-birthday",
-      "title": "운동하는 남자친구 생일 선물, 실제로 쓰는 5가지",
-      "persona": "20대 남성",
-      "budgetTier": "3만원대",
-      "occasion": "생일"
-    },
-    {
-      "slug": "coworker-thankyou-10k",
-      "title": "부담 없이 센스 있게, 직장 동료 감사 선물 추천 5선",
-      "persona": "직장 동료",
-      "budgetTier": "1만원대",
-      "occasion": "감사"
-    },
-    {
-      "slug": "health-50s-dad-50k-birthday",
-      "title": "50대 아빠 생일 선물, 건강을 챙기는 5가지 방법",
-      "persona": "50대 아빠",
-      "budgetTier": "5만원대",
-      "occasion": "생일"
-    },
-    {
-      "slug": "sentimental-20s-female-30k-birthday",
-      "title": "감성 가득, 20대 여자친구 생일 선물 추천 5선",
-      "persona": "20대 여성",
-      "budgetTier": "3만원대",
       "occasion": "생일"
     }
   ],
-  "sentimental-20s-female-30k-birthday": [
+  "sentimental-girlfriend-20k-birthday": [
     {
       "slug": "fitness-boyfriend-30k-birthday",
-      "title": "운동하는 남자친구 생일 선물, 실제로 쓰는 5가지",
+      "title": "운동하는 남자친구 생일 선물 추천 3만원대",
       "persona": "20대 남성",
       "budgetTier": "3만원대",
       "occasion": "생일"
-    },
-    {
-      "slug": "health-50s-dad-50k-birthday",
-      "title": "50대 아빠 생일 선물, 건강을 챙기는 5가지 방법",
-      "persona": "50대 아빠",
-      "budgetTier": "5만원대",
-      "occasion": "생일"
-    },
-    {
-      "slug": "coworker-thankyou-10k",
-      "title": "부담 없이 센스 있게, 직장 동료 감사 선물 추천 5선",
-      "persona": "직장 동료",
-      "budgetTier": "1만원대",
-      "occasion": "감사"
-    },
-    {
-      "slug": "kitchen-housewarming-20k",
-      "title": "진짜 쓰는 집들이 선물, 주방용품 추천 5선",
-      "persona": "신혼부부",
-      "budgetTier": "2만원대",
-      "occasion": "집들이"
     }
   ]
 }

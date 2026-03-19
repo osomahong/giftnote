@@ -7,75 +7,78 @@ import { getOccasionColor } from '@/lib/occasion-colors'
 import { WaveDivider } from '@/components/layout/WaveDivider'
 import { HeroDecorations } from '@/components/layout/HeroDecorations'
 
-function hasThumb(slug: string): boolean {
-  return fs.existsSync(path.join(process.cwd(), 'public', 'og', `_thumb-${slug}.png`))
+function hasOgImage(slug: string): boolean {
+  return fs.existsSync(path.join(process.cwd(), 'public', 'og', `${slug}.png`))
 }
 
-function CollectionCard({
-  collection,
-  featured = false,
-}: {
+function CollectionCard({ collection }: {
   collection: ReturnType<typeof getPublishedCollections>[number]
-  featured?: boolean
 }) {
-  const thumb = hasThumb(collection.slug)
+  const ogImage = hasOgImage(collection.slug)
   const oc = getOccasionColor(collection.occasion)
 
   return (
     <Link
       href={`/collection/${collection.slug}/`}
-      className={`group block rounded-3xl overflow-hidden bg-surface shadow-md hover:shadow-lg transition-all duration-300 hover:-translate-y-1 ${featured ? 'h-full' : ''}`}
+      className="group block rounded-2xl overflow-hidden bg-surface shadow-sm hover:shadow-md transition-all duration-300 hover:-translate-y-0.5 border border-border/30"
       data-track="collection-card"
       data-track-slug={collection.slug}
       data-track-occasion={collection.occasion}
       data-track-curator={collection.curator || ''}
     >
-      <div className={`h-1 ${oc.bar}`} />
+      <div className={`h-0.5 ${oc.bar}`} />
 
-      <div className={`relative w-full overflow-hidden ${featured ? 'aspect-[3/2] min-h-[320px]' : 'aspect-[4/3]'}`}>
-        {thumb ? (
+      {ogImage && (
+        <div className="relative w-full overflow-hidden aspect-[2/1]">
           <Image
-            src={`/og/_thumb-${collection.slug}.png`}
+            src={`/og/${collection.slug}.png`}
             alt={collection.title}
             fill
             className="object-cover group-hover:scale-105 transition-transform duration-500"
           />
-        ) : (
-          <div className={`w-full h-full ${oc.highlight} flex items-center justify-center`}>
-            <img
-              src={collection.heroSvg}
-              alt=""
-              className="w-12 h-12 opacity-40"
-              aria-hidden="true"
-            />
-          </div>
-        )}
-      </div>
+        </div>
+      )}
 
-      <div className={featured ? 'p-6' : 'p-5'}>
-        <div className="flex flex-wrap gap-1.5 mb-3">
-          <span className="text-xs px-2.5 py-1 rounded-full bg-tag-persona text-tag-persona-text font-medium">
+      <div className="p-4">
+        <div className="flex flex-wrap gap-1 mb-2">
+          <span className="text-[11px] px-2 py-0.5 rounded-full bg-tag-persona text-tag-persona-text font-medium">
             {collection.persona}
           </span>
-          <span className="text-xs px-2.5 py-1 rounded-full bg-tag-budget text-tag-budget-text font-medium">
+          <span className="text-[11px] px-2 py-0.5 rounded-full bg-tag-budget text-tag-budget-text font-medium">
             {collection.budgetTier}
           </span>
         </div>
-        <h3 className={`font-bold text-text ${featured ? 'text-2xl md:text-[28px]' : 'text-base'} mb-2 ${featured ? 'line-clamp-3' : 'line-clamp-2'} group-hover:text-accent transition-colors`}>
+        <h3 className="font-bold text-text text-sm mb-1 line-clamp-2 group-hover:text-accent transition-colors">
           {collection.title}
         </h3>
-        <p className={`text-sm text-text-secondary ${featured ? 'line-clamp-3' : 'line-clamp-2'} leading-relaxed`}>
+        <p className="text-xs text-text-muted line-clamp-2 leading-relaxed">
           {collection.description}
         </p>
-        <span className="inline-flex items-center gap-1 mt-3 text-sm text-accent font-medium opacity-0 group-hover:opacity-100 transition-opacity">
-          자세히 보기
-          <svg className="w-4 h-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
-            <path d="M5 12h14M12 5l7 7-7 7" />
-          </svg>
-        </span>
       </div>
     </Link>
   )
+}
+
+// 태그 카테고리 분류
+const TAG_CATEGORIES: Record<string, { label: string; emoji: string }> = {
+  '생일': { label: '생일 선물', emoji: '🎂' },
+  '집들이': { label: '집들이 선물', emoji: '🏠' },
+  '감사': { label: '감사 선물', emoji: '💐' },
+  '기념일': { label: '기념일 선물', emoji: '💝' },
+  '남자친구': { label: '남자친구 선물', emoji: '👨' },
+  '여자친구': { label: '여자친구 선물', emoji: '👩' },
+  '부모님': { label: '부모님 선물', emoji: '👨‍👩‍👧' },
+  '직장동료': { label: '직장 선물', emoji: '💼' },
+  '20대': { label: '20대 선물', emoji: '' },
+  '30대': { label: '30대 선물', emoji: '' },
+  '1만원대': { label: '1만원대', emoji: '' },
+  '2만원대': { label: '2만원대', emoji: '' },
+  '3만원대': { label: '3만원대', emoji: '' },
+  '5만원대': { label: '5만원대', emoji: '' },
+  '운동': { label: '운동/헬스', emoji: '🏋️' },
+  '뷰티': { label: '뷰티/패션', emoji: '💄' },
+  '인테리어': { label: '인테리어', emoji: '🛋️' },
+  '건강': { label: '건강', emoji: '💊' },
 }
 
 export default function HomePage() {
@@ -85,33 +88,46 @@ export default function HomePage() {
   const sorted = [...collections].sort(
     (a, b) => new Date(b.dateModified).getTime() - new Date(a.dateModified).getTime()
   )
-  const featured = sorted[0]
-  const subFeatured = sorted.slice(1, 4)
 
-  const grouped = collections.reduce<Record<string, typeof collections>>((acc, c) => {
+  // 상황별 그룹
+  const byOccasion = collections.reduce<Record<string, typeof collections>>((acc, c) => {
     const key = c.occasion || '기타'
     if (!acc[key]) acc[key] = []
     acc[key].push(c)
     return acc
   }, {})
 
-  const occasionEntries = Object.entries(grouped)
-  const snapSections = occasionEntries.slice(0, 3)
-  const restSections = occasionEntries.slice(3)
+  // 대상별 그룹
+  const byTarget = collections.reduce<Record<string, typeof collections>>((acc, c) => {
+    // 태그에서 대상 태그 추출
+    const targetTags = c.tags.filter(t => ['남자친구', '여자친구', '부모님', '직장동료', '친구'].includes(t))
+    for (const tag of targetTags) {
+      if (!acc[tag]) acc[tag] = []
+      acc[tag].push(c)
+    }
+    return acc
+  }, {})
+
+  // 예산별 그룹
+  const byBudget = collections.reduce<Record<string, typeof collections>>((acc, c) => {
+    if (!acc[c.budgetTier]) acc[c.budgetTier] = []
+    acc[c.budgetTier].push(c)
+    return acc
+  }, {})
 
   return (
     <div className="md:snap-none snap-y snap-proximity">
       {/* 히어로 */}
-      <section className="relative min-h-screen md:min-h-0 snap-start flex items-center justify-center md:block md:py-16 bg-bg">
+      <section className="relative min-h-[50vh] md:min-h-0 snap-start flex items-center justify-center md:block md:py-14 bg-bg">
         <div className="absolute inset-0 dot-pattern pointer-events-none" />
         <HeroDecorations />
-        <div className="relative max-w-6xl mx-auto px-4 text-center">
-          <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-text leading-tight mb-4 animate-fade-in-up">
+        <div className="relative max-w-4xl mx-auto px-4 text-center">
+          <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-text leading-tight mb-3 animate-fade-in-up">
             마음을 전하는{' '}
-            <em className="not-italic bg-occasion-coral/20 px-2 py-0.5 rounded-md">선물</em>{' '}
+            <em className="not-italic bg-occasion-coral/20 px-1.5 py-0.5 rounded-md">선물</em>{' '}
             큐레이션
           </h1>
-          <p className="text-lg text-text-secondary animate-fade-in-up delay-1">
+          <p className="text-base text-text-secondary animate-fade-in-up delay-1">
             받는 사람, 예산, 상황에 꼭 맞는 선물을 찾아보세요
           </p>
         </div>
@@ -119,49 +135,33 @@ export default function HomePage() {
 
       <WaveDivider variant="to-warm" />
 
-      {/* 피처드 */}
-      {featured && (
-        <section className="min-h-screen md:min-h-0 snap-start bg-bg-warm py-8 md:py-12">
-          <div className="max-w-6xl mx-auto px-4">
-            <h2 className="text-2xl md:text-3xl font-bold text-text mb-8">최신 큐레이션</h2>
-            {subFeatured.length > 0 ? (
-              <div className="grid grid-cols-1 md:grid-cols-5 gap-6">
-                <div className="md:col-span-3">
-                  <CollectionCard collection={featured} featured />
-                </div>
-                <div className="md:col-span-2 flex flex-col gap-6">
-                  {subFeatured.map((c) => (
-                    <CollectionCard key={c.slug} collection={c} />
-                  ))}
-                </div>
-              </div>
-            ) : (
-              <CollectionCard collection={featured} featured />
-            )}
+      {/* 최신 큐레이션 */}
+      <section className="bg-bg-warm py-8 md:py-10">
+        <div className="max-w-5xl mx-auto px-4">
+          <h2 className="text-xl font-bold text-text mb-6">최신 큐레이션</h2>
+          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
+            {sorted.map((c) => (
+              <CollectionCard key={c.slug} collection={c} />
+            ))}
           </div>
-        </section>
-      )}
+        </div>
+      </section>
 
       <WaveDivider variant="to-default" />
 
-      {/* Occasion별 — 스냅 (처음 3개) */}
-      {snapSections.map(([occasion, items]) => {
+      {/* 상황별 추천 */}
+      {Object.entries(byOccasion).map(([occasion, items]) => {
         const oc = getOccasionColor(occasion)
+        const cat = TAG_CATEGORIES[occasion]
         return (
-          <section key={occasion} className="min-h-screen md:min-h-0 snap-start bg-bg py-8 md:py-12">
-            <div className="max-w-6xl mx-auto px-4">
-              <h2 className="text-2xl md:text-3xl font-bold text-text mb-8 flex items-center gap-3">
-                <span className={`w-3 h-3 rounded-full ${oc.bar}`} />
-                {occasion}
+          <section key={`occ-${occasion}`} className="bg-bg py-8 md:py-10">
+            <div className="max-w-5xl mx-auto px-4">
+              <h2 className="text-xl font-bold text-text mb-6 flex items-center gap-2">
+                <span className={`w-2 h-2 rounded-full ${oc.bar}`} />
+                {cat?.emoji && <span>{cat.emoji}</span>}
+                {occasion} 선물 추천
               </h2>
-              <div className="flex md:hidden gap-4 overflow-x-auto snap-x snap-proximity pb-4 -mx-4 px-4">
-                {items.map((c) => (
-                  <div key={c.slug} className="snap-start shrink-0 w-[280px]">
-                    <CollectionCard collection={c} />
-                  </div>
-                ))}
-              </div>
-              <div className="hidden md:grid md:grid-cols-3 gap-6">
+              <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
                 {items.map((c) => (
                   <CollectionCard key={c.slug} collection={c} />
                 ))}
@@ -171,38 +171,73 @@ export default function HomePage() {
         )
       })}
 
-      {/* 나머지 Occasion (스냅 아님) */}
-      {restSections.map(([occasion, items]) => {
-        const oc = getOccasionColor(occasion)
-        return (
-          <section key={occasion} className="bg-bg py-8 md:py-12">
-            <div className="max-w-6xl mx-auto px-4">
-              <h2 className="text-2xl md:text-3xl font-bold text-text mb-8 flex items-center gap-3">
-                <span className={`w-3 h-3 rounded-full ${oc.bar}`} />
-                {occasion}
-              </h2>
-              <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
-                {items.map((c) => (
+      {/* 대상별 추천 */}
+      {Object.keys(byTarget).length > 0 && (
+        <>
+          <WaveDivider variant="to-warm" />
+          {Object.entries(byTarget).map(([target, items]) => {
+            const cat = TAG_CATEGORIES[target]
+            return (
+              <section key={`tgt-${target}`} className="bg-bg-warm py-8 md:py-10">
+                <div className="max-w-5xl mx-auto px-4">
+                  <h2 className="text-xl font-bold text-text mb-6">
+                    {cat?.emoji && <span className="mr-2">{cat.emoji}</span>}
+                    {cat?.label || `${target} 선물`} 추천
+                  </h2>
+                  <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
+                    {items.map((c) => (
+                      <CollectionCard key={c.slug} collection={c} />
+                    ))}
+                  </div>
+                </div>
+              </section>
+            )
+          })}
+        </>
+      )}
+
+      {/* 예산별 추천 */}
+      {Object.keys(byBudget).length > 0 && (
+        <>
+          <WaveDivider variant="to-default" />
+          <section className="bg-bg py-8 md:py-10">
+            <div className="max-w-5xl mx-auto px-4">
+              <h2 className="text-xl font-bold text-text mb-6">💰 예산별 선물 추천</h2>
+              <div className="flex flex-wrap gap-3 mb-6">
+                {Object.keys(byBudget).map((budget) => (
+                  <Link
+                    key={budget}
+                    href={`/tag/${budget}/`}
+                    className="px-4 py-2 rounded-xl bg-surface border border-border/50 text-sm font-medium text-text hover:border-accent/50 hover:text-accent transition-all"
+                    data-track="tag-link"
+                    data-track-tag={budget}
+                  >
+                    {budget}
+                  </Link>
+                ))}
+              </div>
+              <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
+                {Object.values(byBudget).flat().map((c) => (
                   <CollectionCard key={c.slug} collection={c} />
                 ))}
               </div>
             </div>
           </section>
-        )
-      })}
+        </>
+      )}
 
       <WaveDivider variant="to-warm" />
 
       {/* 태그 */}
-      <section className="bg-bg-warm py-8 md:py-12">
-        <div className="max-w-6xl mx-auto px-4">
-          <h2 className="text-2xl md:text-3xl font-bold text-text mb-8">태그</h2>
-          <div className="flex flex-wrap gap-2.5">
+      <section className="bg-bg-warm py-8 md:py-10">
+        <div className="max-w-5xl mx-auto px-4">
+          <h2 className="text-xl font-bold text-text mb-6">태그로 찾기</h2>
+          <div className="flex flex-wrap gap-2">
             {tags.map((tag) => (
               <Link
                 key={tag}
                 href={`/tag/${tag}/`}
-                className="text-sm px-4 py-2 rounded-full bg-surface text-text-secondary border border-border/50 hover:border-accent/30 hover:text-accent transition-all"
+                className="text-sm px-3 py-1.5 rounded-full bg-surface text-text-secondary border border-border/50 hover:border-accent/30 hover:text-accent transition-all"
                 data-track="tag-link"
                 data-track-tag={tag}
               >
