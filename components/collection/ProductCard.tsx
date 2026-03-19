@@ -42,6 +42,7 @@ function EvidencePill({ evidence }: { evidence: { type: string; source: string; 
 
 function PriceDisplay({ product }: { product: Product }) {
   const hasDiscount = product.originalPrice && product.originalPrice > product.price
+  const isNaver = product.source === 'naver'
   const isUrgent = product.promotionEnd &&
     (new Date(product.promotionEnd).getTime() - Date.now()) < 7 * 24 * 60 * 60 * 1000
 
@@ -58,8 +59,11 @@ function PriceDisplay({ product }: { product: Product }) {
         </>
       )}
       <span className="text-lg font-bold text-text">
-        {product.price.toLocaleString()}원
+        {product.price.toLocaleString()}원{isNaver && '~'}
       </span>
+      {isNaver && (
+        <span className="text-xs text-text-muted">최저가</span>
+      )}
       {product.promotionEnd && (
         <span className={`text-xs ${isUrgent ? 'text-promotion-urgent font-bold' : 'text-text-muted'}`}>
           {product.promotionLabel || '프로모션'} ~{product.promotionEnd}

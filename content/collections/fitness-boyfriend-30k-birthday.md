@@ -122,9 +122,9 @@ products:
   - rank: 5
     name: 나이키 브라질리아 9.5 트레이닝 더플백 XS 25L
     brand: 나이키
-    price: 27420
-    originalPrice: 49000
-    discountRate: 44
+    price: 23200
+    originalPrice: 39000
+    discountRate: 40
     source: naver
     sourceUrl: 'https://search.shopping.naver.com/search/all?query=나이키+브라질리아+더플백+XS+DM3977'
     affiliateUrl: 'https://search.shopping.naver.com/search/all?query=나이키+브라질리아+더플백+XS+DM3977'
