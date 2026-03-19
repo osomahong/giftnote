@@ -76,7 +76,7 @@ products:
       https://link.coupang.com/re/AFFSDP?lptag=AF3425199&pageKey=154663458&itemId=445921595&vendorItemId=4104308100&traceid=V0-153-c27290eaf2a809e1&clickBeacon=5b30ab80-2378-11f1-9ffd-e26c1d83bf18%7E3&requestid=20260319184525703012654021&token=31850C%7CMIXED&landing_exp=APP_LANDING_A
     affiliateUrl: >-
       https://link.coupang.com/re/AFFSDP?lptag=AF3425199&pageKey=154663458&itemId=445921595&vendorItemId=4104308100&traceid=V0-153-c27290eaf2a809e1&clickBeacon=5b30ab80-2378-11f1-9ffd-e26c1d83bf18%7E3&requestid=20260319184525703012654021&token=31850C%7CMIXED&landing_exp=APP_LANDING_A
-    image: 'https://img.danawa.com/prod_img/500000/815/218/img/6218815_1.jpg'
+    image: 'https://moriann.com/web/product/medium/20200618/130769ae68c07f41428cd3b37652400c.jpg'
     category: 디퓨저
     isEditorPick: false
     reason: 골드라벨 라인은 병 디자인이 고급스러워 책상 위에 두기 좋습니다. 사탕수수 발효 베이스라 향이 자극적이지 않습니다.
@@ -91,29 +91,6 @@ products:
         text: 만원대 디퓨저 선물 추천
         value: 만족도 91%
   - rank: 4
-    name: 단심답례품 원당+모링가소금 선물세트
-    brand: 단심
-    price: 47500
-    source: coupang
-    sourceUrl: >-
-      https://link.coupang.com/re/AFFSDP?lptag=AF3425199&pageKey=8853814508&itemId=19445598387&vendorItemId=86556505893&traceid=V0-153-38855d50b2f23a35&clickBeacon=5f79edf0-2378-11f1-a519-185891127860%7E3&requestid=20260319184532925172251557&token=31850C%7CMIXED&landing_exp=APP_LANDING_A
-    affiliateUrl: >-
-      https://link.coupang.com/re/AFFSDP?lptag=AF3425199&pageKey=8853814508&itemId=19445598387&vendorItemId=86556505893&traceid=V0-153-38855d50b2f23a35&clickBeacon=5f79edf0-2378-11f1-a519-185891127860%7E3&requestid=20260319184532925172251557&token=31850C%7CMIXED&landing_exp=APP_LANDING_A
-    image: 'https://img.danawa.com/prod_img/500000/531/641/img/12641531_1.jpg'
-    category: 조미료세트
-    isEditorPick: false
-    reason: 비정제 원당과 모링가소금 조합이라 건강을 생각하는 분께 적합합니다. 답례품 전문 브랜드라 포장 퀄리티가 가격 대비 높습니다.
-    giftMessage: 건강한 맛으로 감사한 마음을 전합니다.
-    evidence:
-      - type: community
-        source: 블라인드
-        text: 직장 답례품 추천 건강 식품 부문
-        value: 월 80회 언급
-      - type: trend
-        source: 네이버 트렌드
-        text: 건강 조미료 선물세트 검색 증가
-        value: 전년 대비 35% 상승
-  - rank: 5
     name: 오설록 피치 블랙티 티백 20입
     brand: 오설록
     price: 35900
