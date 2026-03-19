@@ -112,8 +112,8 @@ export function ProductCard({ product, className = '', wide = false }: { product
         )}
 
         <div className="md:flex">
-          {/* 이미지 - PC에서 좌측 고정 */}
-          <div className="md:w-[320px] md:shrink-0">
+          {/* 이미지 - 클릭 시 구매 링크 */}
+          <a href={product.affiliateUrl} target="_blank" rel="nofollow sponsored noopener" className="block md:w-[320px] md:shrink-0">
             {product.image ? (
               <div className="w-full aspect-[4/3] md:aspect-auto md:h-full bg-bg-warm">
                 <img src={product.image} alt={product.imageAlt || `${product.brand} ${product.name}`} className="w-full h-full object-cover" loading="lazy" />
@@ -123,7 +123,7 @@ export function ProductCard({ product, className = '', wide = false }: { product
                 <span className="text-xs text-text-muted opacity-40">이미지 준비 중</span>
               </div>
             )}
-          </div>
+          </a>
 
           {/* 정보 영역 */}
           <div className="flex-1 min-w-0 p-4 md:p-5">
@@ -186,28 +186,30 @@ export function ProductCard({ product, className = '', wide = false }: { product
         </div>
       )}
 
-      {/* 이미지 영역 - 패딩 없음 */}
-      {product.image ? (
-        <div className="w-full aspect-[4/3] bg-bg-warm">
-          <img
-            src={product.image}
-            alt={product.imageAlt || `${product.brand} ${product.name}`}
-            className="w-full h-full object-cover"
-            loading="lazy"
-          />
-        </div>
-      ) : (
-        <div className="w-full aspect-[4/3] bg-bg-warm flex items-center justify-center">
-          <div className="text-center text-text-muted">
-            <svg className="w-8 h-8 mx-auto mb-1 opacity-30" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5">
-              <rect x="3" y="3" width="18" height="18" rx="2" />
-              <circle cx="8.5" cy="8.5" r="1.5" />
-              <path d="m21 15-3.1-3.1a2 2 0 0 0-2.8 0L6 21" />
-            </svg>
-            <span className="text-xs opacity-40">이미지 준비 중</span>
+      {/* 이미지 영역 - 클릭 시 구매 링크 */}
+      <a href={product.affiliateUrl} target="_blank" rel="nofollow sponsored noopener" className="block">
+        {product.image ? (
+          <div className="w-full aspect-[4/3] bg-bg-warm">
+            <img
+              src={product.image}
+              alt={product.imageAlt || `${product.brand} ${product.name}`}
+              className="w-full h-full object-cover"
+              loading="lazy"
+            />
           </div>
-        </div>
-      )}
+        ) : (
+          <div className="w-full aspect-[4/3] bg-bg-warm flex items-center justify-center">
+            <div className="text-center text-text-muted">
+              <svg className="w-8 h-8 mx-auto mb-1 opacity-30" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5">
+                <rect x="3" y="3" width="18" height="18" rx="2" />
+                <circle cx="8.5" cy="8.5" r="1.5" />
+                <path d="m21 15-3.1-3.1a2 2 0 0 0-2.8 0L6 21" />
+              </svg>
+              <span className="text-xs opacity-40">이미지 준비 중</span>
+            </div>
+          </div>
+        )}
+      </a>
 
       {/* 정보 영역 - 구분된 패딩 */}
       <div className="p-4 md:p-5">
