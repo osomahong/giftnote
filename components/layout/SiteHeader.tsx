@@ -7,9 +7,9 @@ export function SiteHeader() {
   return (
     <header className="sticky top-0 z-50 bg-bg/95 backdrop-blur-sm border-b border-border">
       <div className="max-w-6xl mx-auto px-4 h-14 flex items-center justify-between">
-        <Link href="/" className="flex items-center gap-2">
-          <img src="/svg/logo-symbol.svg" alt="" className="h-7 w-7" aria-hidden="true" />
-          <img src="/svg/logo.svg" alt="기프트노트" className="h-5 hidden sm:block" />
+        <Link href="/" className="flex items-center gap-2.5">
+          <img src="/svg/logo-symbol.svg" alt="" className="h-8 w-8" aria-hidden="true" />
+          <img src="/svg/logo.svg" alt="기프트노트" className="h-6 hidden sm:block" />
         </Link>
         <nav className="flex items-center gap-1">
           {tags.map((tag) => (
