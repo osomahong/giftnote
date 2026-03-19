@@ -1,0 +1,35 @@
+{
+  "name": "gift-blog",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "prebuild": "tsx scripts/build-recommendations.ts && tsx scripts/build-tag-index.ts",
+    "generate:og": "tsx scripts/generate-og-images.ts"
+  },
+  "dependencies": {
+    "@eslint/eslintrc": "^3.3.5",
+    "@google/genai": "^1.45.0",
+    "@tailwindcss/postcss": "^4.2.1",
+    "@types/node": "^25.5.0",
+    "@types/react": "^19.2.14",
+    "@types/react-dom": "^19.2.3",
+    "autoprefixer": "^10.4.27",
+    "eslint": "^9.39.4",
+    "eslint-config-next": "^16.1.7",
+    "gray-matter": "^4.0.3",
+    "next": "^16.1.7",
+    "postcss": "^8.5.8",
+    "react": "^19.2.4",
+    "react-dom": "^19.2.4",
+    "sharp": "^0.34.5",
+    "tailwindcss": "^4.2.1",
+    "typescript": "^5.9.3"
+  },
+  "devDependencies": {
+    "tsx": "^4.21.0"
+  }
+}

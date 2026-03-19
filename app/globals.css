@@ -1,0 +1,134 @@
+@import "tailwindcss";
+
+@theme {
+  --color-bg: #FFFFFF;
+  --color-bg-warm: #F7F7F5;
+  --color-surface: #FFFFFF;
+  --color-text: #1A1A1A;
+  --color-text-secondary: #6B6B6B;
+  --color-text-muted: #9CA3AF;
+  --color-border: #E5E7EB;
+  --color-border-light: #F3F4F6;
+
+  --color-accent: #C8612A;
+  --color-accent-hover: #B55624;
+  --color-accent-light: #FFF4EE;
+
+  --color-cta: #FF6B6B;
+  --color-cta-hover: #E85D5D;
+
+  --color-occasion-coral: #FF6B6B;
+  --color-occasion-olive: #84CC16;
+  --color-occasion-lemon: #FBBF24;
+  --color-occasion-lavender: #A78BFA;
+  --color-occasion-terra: #C8612A;
+
+  --color-tag-persona: #EBF0FD;
+  --color-tag-persona-text: #2D5BB0;
+  --color-tag-budget: #EBF4EE;
+  --color-tag-budget-text: #2A7A48;
+  --color-tag-occasion: #FDF6E8;
+  --color-tag-occasion-text: #B07820;
+
+  --color-evidence-youtube-bg: #FDECEA;
+  --color-evidence-youtube-text: #C0392B;
+  --color-evidence-community-bg: #EBF4EE;
+  --color-evidence-community-text: #2A7A48;
+  --color-evidence-trend-bg: #FDF6E8;
+  --color-evidence-trend-text: #B07820;
+  --color-evidence-media-bg: #EBF0FD;
+  --color-evidence-media-text: #2D5BB0;
+
+  /* 하위 호환 별칭 — 전체 리디자인 완료 후 제거 */
+  --color-card-cream: #FFFFFF;
+  --color-card-cream-hover: #FAFAFA;
+  --color-highlight-accent: #FF6B6B33;
+
+  --color-editor-pick: #C8612A;
+  --color-discount: #C0392B;
+  --color-promotion-urgent: #C0392B;
+
+  --font-serif: 'Noto Serif KR', serif;
+  --font-sans: 'Noto Sans KR', sans-serif;
+  --font-hand: 'Caveat', cursive;
+}
+
+body {
+  background-color: var(--color-bg);
+  color: var(--color-text);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1, h2, h3 {
+  font-family: var(--font-sans);
+}
+
+a[rel~="sponsored"] {
+  text-decoration: none;
+}
+
+.dot-pattern {
+  background-image: radial-gradient(circle, var(--color-text-muted) 1px, transparent 1px);
+  background-size: 24px 24px;
+  opacity: 0.06;
+}
+
+@keyframes slide-in-right {
+  from { transform: translateX(100%); opacity: 0; }
+  to { transform: translateX(0); opacity: 1; }
+}
+
+@keyframes slide-in-bottom {
+  from { transform: translateY(100%); }
+  to { transform: translateY(0); }
+}
+
+.animate-slide-in-right {
+  animation: slide-in-right 0.3s ease-out;
+}
+
+.animate-slide-in-bottom {
+  animation: slide-in-bottom 0.3s ease-out;
+}
+
+@keyframes float {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-12px); }
+}
+
+@keyframes wobble {
+  0%, 100% { transform: rotate(0deg); }
+  25% { transform: rotate(3deg); }
+  75% { transform: rotate(-3deg); }
+}
+
+@keyframes spin-slow {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+@keyframes fade-in-up {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.animate-float { animation: float 6s ease-in-out infinite; }
+.animate-wobble { animation: wobble 4s ease-in-out infinite; }
+.animate-spin-slow { animation: spin-slow 20s linear infinite; }
+.animate-fade-in-up { animation: fade-in-up 0.6s ease-out both; }
+
+.delay-1 { animation-delay: 0.5s; }
+.delay-2 { animation-delay: 1s; }
+.delay-3 { animation-delay: 1.5s; }
+.delay-4 { animation-delay: 2s; }
+
+@media (prefers-reduced-motion: reduce) {
+  .animate-float,
+  .animate-wobble,
+  .animate-spin-slow,
+  .animate-fade-in-up {
+    animation: none;
+  }
+}

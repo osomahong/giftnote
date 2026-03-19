@@ -1,0 +1,130 @@
+{
+  "$schema": "event-schema",
+  "version": "1.0.0",
+  "ga4MeasurementId": "G-RBMBJ6VD54",
+  "gtmContainerId": "GTM-WVTWX2K5",
+  "events": [
+    {
+      "name": "select_content",
+      "category": "engagement",
+      "trigger": "컬렉션 카드 클릭 (메인/태그 페이지)",
+      "ga4Recommended": true,
+      "parameters": {
+        "content_type": { "type": "string", "value": "collection", "custom": false },
+        "item_id": { "type": "string", "value": "{{slug}}", "custom": false },
+        "occasion": { "type": "string", "value": "{{occasion}}", "custom": true },
+        "curator": { "type": "string", "value": "{{curator}}", "custom": true }
+      },
+      "selector": "[data-track='collection-card']",
+      "dataAttributes": {
+        "data-track": "collection-card",
+        "data-track-slug": "{{slug}}",
+        "data-track-occasion": "{{occasion}}",
+        "data-track-curator": "{{curator}}"
+      }
+    },
+    {
+      "name": "view_item",
+      "category": "ecommerce",
+      "trigger": "상품 카드 뷰포트 진입 (컬렉션 상세)",
+      "ga4Recommended": true,
+      "parameters": {
+        "item_id": { "type": "string", "value": "{{product.rank}}", "custom": false },
+        "item_name": { "type": "string", "value": "{{product.name}}", "custom": false },
+        "item_brand": { "type": "string", "value": "{{product.brand}}", "custom": false },
+        "price": { "type": "number", "value": "{{product.price}}", "custom": false },
+        "item_category": { "type": "string", "value": "{{collection.interest}}", "custom": false },
+        "platform": { "type": "string", "value": "{{product.source}}", "custom": true }
+      },
+      "selector": "[data-track='product-card']",
+      "dataAttributes": {
+        "data-track": "product-card",
+        "data-track-name": "{{product.name}}",
+        "data-track-brand": "{{product.brand}}",
+        "data-track-price": "{{product.price}}",
+        "data-track-platform": "{{product.source}}"
+      }
+    },
+    {
+      "name": "gift_purchase_click",
+      "category": "conversion",
+      "trigger": "구매하기 버튼 클릭",
+      "ga4Recommended": false,
+      "parameters": {
+        "item_name": { "type": "string", "value": "{{product.name}}", "custom": false },
+        "item_brand": { "type": "string", "value": "{{product.brand}}", "custom": false },
+        "price": { "type": "number", "value": "{{product.price}}", "custom": false },
+        "platform": { "type": "string", "value": "{{product.source}}", "custom": true },
+        "affiliate_url": { "type": "string", "value": "{{product.affiliateUrl}}", "custom": true },
+        "collection_slug": { "type": "string", "value": "{{collection.slug}}", "custom": true }
+      },
+      "selector": "[data-track='purchase-btn']",
+      "dataAttributes": {
+        "data-track": "purchase-btn",
+        "data-track-name": "{{product.name}}",
+        "data-track-brand": "{{product.brand}}",
+        "data-track-price": "{{product.price}}",
+        "data-track-platform": "{{product.source}}"
+      }
+    },
+    {
+      "name": "gift_faq_open",
+      "category": "engagement",
+      "trigger": "FAQ 아코디언 열기",
+      "ga4Recommended": false,
+      "parameters": {
+        "question": { "type": "string", "value": "{{faq.question}}", "custom": true },
+        "collection_slug": { "type": "string", "value": "{{collection.slug}}", "custom": true }
+      },
+      "selector": "[data-track='faq-item']",
+      "dataAttributes": {
+        "data-track": "faq-item",
+        "data-track-question": "{{faq.question}}"
+      }
+    },
+    {
+      "name": "gift_tag_click",
+      "category": "navigation",
+      "trigger": "태그 클릭 (메인/상세 페이지)",
+      "ga4Recommended": false,
+      "parameters": {
+        "tag_name": { "type": "string", "value": "{{tag}}", "custom": true }
+      },
+      "selector": "[data-track='tag-link']",
+      "dataAttributes": {
+        "data-track": "tag-link",
+        "data-track-tag": "{{tag}}"
+      }
+    },
+    {
+      "name": "select_content",
+      "category": "engagement",
+      "trigger": "관련 큐레이션 카드 클릭",
+      "ga4Recommended": true,
+      "parameters": {
+        "content_type": { "type": "string", "value": "related_collection", "custom": false },
+        "item_id": { "type": "string", "value": "{{slug}}", "custom": false },
+        "source_section": { "type": "string", "value": "{{section}}", "custom": true }
+      },
+      "selector": "[data-track='related-card']",
+      "dataAttributes": {
+        "data-track": "related-card",
+        "data-track-slug": "{{slug}}",
+        "data-track-section": "content|curator"
+      }
+    }
+  ],
+  "customDimensions": [
+    { "name": "occasion", "scope": "EVENT", "description": "occasion" },
+    { "name": "curator", "scope": "EVENT", "description": "큐레이터 ID" },
+    { "name": "platform", "scope": "EVENT", "description": "platform" },
+    { "name": "collection_slug", "scope": "EVENT", "description": "컬렉션 슬러그" },
+    { "name": "tag_name", "scope": "EVENT", "description": "태그명" },
+    { "name": "question", "scope": "EVENT", "description": "FAQ 질문 텍스트" },
+    { "name": "affiliate_url", "scope": "EVENT", "description": "어필리에이트 링크 URL" },
+    { "name": "source_section", "scope": "EVENT", "description": "관련 추천 섹션 유형" }
+  ],
+  "conversionEvents": [
+    "gift_purchase_click"
+  ]
+}
