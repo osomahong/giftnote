@@ -28,9 +28,9 @@ products:
     price: 22000
     source: coupang
     sourceUrl: >-
-      https://link.coupang.com/re/AFFSDP?lptag=AF3425199&pageKey=6504473928&itemId=26126604108&vendorItemId=93106950953&traceid=V0-153-2a382b09cb4c2c61&clickBeacon=07b49b80-2362-11f1-9ee3-0c7beed7dc63%7E3&requestid=20260319160536804202185213&token=31850C%7CMIXED&landing_exp=APP_LANDING_A
+      https://link.coupang.com/re/AFFSDP?lptag=AF3425199&pageKey=6504473928&itemId=26126604108&vendorItemId=93106950953&traceid=V0-153-2a382b09cb4c2c61&clickBeacon=681c5150-2378-11f1-a6e8-63a5eb31025e%7E3&requestid=20260319184547395291647669&token=31850C%7CMIXED&landing_exp=APP_LANDING_A
     affiliateUrl: >-
-      https://link.coupang.com/re/AFFSDP?lptag=AF3425199&pageKey=6504473928&itemId=26126604108&vendorItemId=93106950953&traceid=V0-153-2a382b09cb4c2c61&clickBeacon=07b49b80-2362-11f1-9ee3-0c7beed7dc63%7E3&requestid=20260319160536804202185213&token=31850C%7CMIXED&landing_exp=APP_LANDING_A
+      https://link.coupang.com/re/AFFSDP?lptag=AF3425199&pageKey=6504473928&itemId=26126604108&vendorItemId=93106950953&traceid=V0-153-2a382b09cb4c2c61&clickBeacon=681c5150-2378-11f1-a6e8-63a5eb31025e%7E3&requestid=20260319184547395291647669&token=31850C%7CMIXED&landing_exp=APP_LANDING_A
     image: 'https://img.danawa.com/prod_img/500000/238/447/img/13447238_1.jpg'
     category: 쉐이커
     isEditorPick: true
@@ -51,9 +51,9 @@ products:
     price: 23870
     source: coupang
     sourceUrl: >-
-      https://link.coupang.com/re/AFFSDP?lptag=AF3425199&pageKey=7810096703&itemId=21181518208&vendorItemId=78798894390&traceid=V0-153-ade5c79c9819dc2d&requestid=20260319160558336047741919&token=31850C%7CMIXED&landing_exp=APP_LANDING_A
+      https://link.coupang.com/re/AFFSDP?lptag=AF3425199&pageKey=7810096703&itemId=21181518208&vendorItemId=78798894390&traceid=V0-153-ade5c79c9819dc2d&requestid=20260319184609017180876947&token=31850C%7CMIXED&landing_exp=APP_LANDING_A
     affiliateUrl: >-
-      https://link.coupang.com/re/AFFSDP?lptag=AF3425199&pageKey=7810096703&itemId=21181518208&vendorItemId=78798894390&traceid=V0-153-ade5c79c9819dc2d&requestid=20260319160558336047741919&token=31850C%7CMIXED&landing_exp=APP_LANDING_A
+      https://link.coupang.com/re/AFFSDP?lptag=AF3425199&pageKey=7810096703&itemId=21181518208&vendorItemId=78798894390&traceid=V0-153-ade5c79c9819dc2d&requestid=20260319184609017180876947&token=31850C%7CMIXED&landing_exp=APP_LANDING_A
     image: 'https://www.selexmall.com/data/upload/product/nutsbar_set1.jpg'
     category: 프로틴바
     isEditorPick: false
@@ -72,11 +72,11 @@ products:
     name: QCY T41 AIR 블루투스 무선 이어폰 오픈형
     brand: QCY
     price: 20200
-    source: coupang
+    source: naver
     sourceUrl: >-
-      https://link.coupang.com/re/AFFSDP?lptag=AF3425199&pageKey=8984964209&itemId=26311731338&vendorItemId=93289269580&traceid=V0-153-33b4b90e0c9e06de&clickBeacon=18da1a70-2362-11f1-b265-0eda67cc6ff0%7E3&requestid=20260319160605564202180803&token=31850C%7CMIXED&landing_exp=APP_LANDING_A
+      https://search.shopping.naver.com/search/all?query=QCY%20T41%20AIR%20%EB%B8%94%EB%A3%A8%ED%88%AC%EC%8A%A4%20%EB%AC%B4%EC%84%A0%20%EC%9D%B4%EC%96%B4%ED%8F%B0%20%EC%98%A4%ED%94%88%ED%98%95
     affiliateUrl: >-
-      https://link.coupang.com/re/AFFSDP?lptag=AF3425199&pageKey=8984964209&itemId=26311731338&vendorItemId=93289269580&traceid=V0-153-33b4b90e0c9e06de&clickBeacon=18da1a70-2362-11f1-b265-0eda67cc6ff0%7E3&requestid=20260319160605564202180803&token=31850C%7CMIXED&landing_exp=APP_LANDING_A
+      https://search.shopping.naver.com/search/all?query=QCY%20T41%20AIR%20%EB%B8%94%EB%A3%A8%ED%88%AC%EC%8A%A4%20%EB%AC%B4%EC%84%A0%20%EC%9D%B4%EC%96%B4%ED%8F%B0%20%EC%98%A4%ED%94%88%ED%98%95
     image: 'https://img.danawa.com/prod_img/500000/075/367/img/52367075_1.jpg'
     category: 무선이어폰
     isEditorPick: false

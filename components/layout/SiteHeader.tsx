@@ -17,6 +17,9 @@ export function SiteHeader() {
               key={tag}
               href={`/tag/${tag}/`}
               className="text-xs px-2.5 py-1 rounded-full text-text-muted hover:text-accent hover:bg-accent-light transition-colors hidden md:inline-block"
+              data-track="nav-tag"
+              data-track-menu-type="상단 태그 네비"
+              data-track-menu-title={`#${tag}`}
             >
               #{tag}
             </Link>

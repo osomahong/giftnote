@@ -1,4 +1,18 @@
 {
+  "감사": [
+    "coworker-thankyou-10k",
+    "health-parents-50k-thankyou"
+  ],
+  "30대": [
+    "coworker-thankyou-10k",
+    "housewarming-interior-20k"
+  ],
+  "직장동료": [
+    "coworker-thankyou-10k"
+  ],
+  "1만원대": [
+    "coworker-thankyou-10k"
+  ],
   "생일": [
     "fitness-boyfriend-30k-birthday",
     "sentimental-girlfriend-20k-birthday"
@@ -16,10 +30,29 @@
   "운동": [
     "fitness-boyfriend-30k-birthday"
   ],
-  "여자친구": [
-    "sentimental-girlfriend-20k-birthday"
+  "50대": [
+    "health-parents-50k-thankyou"
+  ],
+  "부모님": [
+    "health-parents-50k-thankyou"
+  ],
+  "5만원대": [
+    "health-parents-50k-thankyou"
+  ],
+  "건강": [
+    "health-parents-50k-thankyou"
+  ],
+  "집들이": [
+    "housewarming-interior-20k"
   ],
   "2만원대": [
+    "housewarming-interior-20k",
+    "sentimental-girlfriend-20k-birthday"
+  ],
+  "인테리어": [
+    "housewarming-interior-20k"
+  ],
+  "여자친구": [
     "sentimental-girlfriend-20k-birthday"
   ],
   "감성소품": [
