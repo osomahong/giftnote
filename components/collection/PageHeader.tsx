@@ -3,6 +3,7 @@ import fs from 'fs'
 import path from 'path'
 import type { Collection } from '@/lib/types'
 import type { OccasionColor } from '@/lib/occasion-colors'
+import { getCuratorProfile } from '@/lib/curators'
 
 function TagChip({ label, variant }: { label: string; variant: 'persona' | 'budget' | 'occasion' }) {
   const styles = {
@@ -73,8 +74,16 @@ export function PageHeader({ collection, slug, occasionColor }: {
       <p className="text-center text-text-secondary text-base max-w-xl mx-auto mb-5 leading-relaxed">
         {collection.description}
       </p>
-      <div className="flex items-center justify-center text-xs text-text-muted">
-        <time itemProp="datePublished" dateTime={collection.datePublished}>{collection.datePublished}</time>
+      <div className="flex items-center justify-center gap-2 text-sm text-text-secondary">
+        {collection.curator && (() => {
+          const curator = getCuratorProfile(collection.curator)
+          if (!curator) return null
+          return (
+            <span className="font-medium text-text">{curator.label}</span>
+          )
+        })()}
+        {collection.curator && <span className="text-text-muted">·</span>}
+        <time itemProp="datePublished" dateTime={collection.datePublished} className="text-text-muted">{collection.datePublished}</time>
       </div>
     </header>
   )
