@@ -34,6 +34,9 @@ export const metadata: Metadata = {
     template: '%s — 기프트노트',
   },
   description: '받는 사람, 예산, 상황에 꼭 맞는 선물 추천. 기프트노트가 엄선한 큐레이션으로 센스 있는 선물을 찾아보세요.',
+  verification: {
+    google: 'nrAvP2pjHO_uWjlLkipDEmhSZn4KqhWm4uOcYHsDlCI',
+  },
 }
 
 export default function RootLayout({
