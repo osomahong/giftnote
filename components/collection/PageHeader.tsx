@@ -43,7 +43,7 @@ export function PageHeader({ collection, occasionColor }: {
       <h1 itemProp="headline" className="text-xl md:text-4xl font-bold text-left md:text-center text-text leading-snug mb-3 break-keep">
         {collection.title}
       </h1>
-      <p className="text-left md:text-center text-text-secondary text-sm md:text-base max-w-xl mx-auto mb-4 leading-relaxed break-keep">
+      <p className="text-left md:text-center text-text-secondary text-base md:text-lg max-w-xl mx-auto mb-4 leading-relaxed break-keep">
         {collection.description}
       </p>
       <div className="flex flex-col sm:flex-row items-start md:items-center justify-start md:justify-center gap-2 text-sm text-text-secondary">

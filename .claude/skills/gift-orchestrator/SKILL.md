@@ -73,7 +73,17 @@
 - **인용구/대화체 분리**: 설명 문장과 인용구는 별도 문장으로 분리
 - **한 문장 한 관점**: 특성 설명과 예시/인용은 섞지 않고 문장을 나눔
 - **target.description**: 핵심 특성 1~2문장 + 인용/예시 1문장 (2~3문장 권장)
-- **reason/giftMessage**: 간결하게. 한 문장에 하나의 포인트
+- **reason**: 50~80자. 기능적 장점 + 감성적 가치 조합. 2문장 권장.
+- **giftMessage**: 30~50자. 선물할 때 전할 수 있는 메시지 한 줄.
+- **editorial body**: 각 문단 50~80자. 3문단.
+- **줄바꿈**: word-break: keep-all 전역 적용. 한국어 단어 중간에서 잘리지 않음. 제목은 자연스러운 띄어쓰기 단위로 줄바꿈되도록 작성.
+- **폰트 크기 기준** (PC / 모바일):
+  - 제목(h1): text-2xl / md:text-4xl
+  - 설명: text-base / md:text-lg
+  - 섹션 제목(h2): text-base / md:text-lg
+  - 본문: text-sm / md:text-base
+  - 상품명: text-base / md:text-lg
+  - 보조 텍스트: text-xs / md:text-sm
 
 ## 출력
 - `content/collections/{slug}.md` 완성 파일

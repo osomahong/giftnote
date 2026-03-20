@@ -36,7 +36,7 @@ export function FaqSection({ faqs }: { faqs: FAQ[] }) {
         {faqs.map((faq, i) => (
           <details key={i} className="group bg-surface rounded-2xl border border-border/50 shadow-sm" data-track="faq-item" data-track-question={faq.question}>
             <summary className="flex items-center justify-between p-4 cursor-pointer list-none">
-              <dt className="font-medium text-sm text-text pr-4">{faq.question}</dt>
+              <dt className="font-medium text-base text-text pr-4">{faq.question}</dt>
               <svg
                 className="w-4 h-4 text-text-muted shrink-0 transition-transform group-open:rotate-180"
                 viewBox="0 0 24 24"
@@ -48,7 +48,7 @@ export function FaqSection({ faqs }: { faqs: FAQ[] }) {
               </svg>
             </summary>
             <div className="px-4 pb-4">
-              <dd className="faq-answer text-sm text-text-secondary leading-relaxed">
+              <dd className="faq-answer text-base text-text-secondary leading-relaxed">
                 {faq.answer}
               </dd>
               {faq.relatedSlug && <FaqRelatedLink slug={faq.relatedSlug} />}

@@ -33,7 +33,7 @@ export function Editorial({ editorial, curator }: { editorial: EditorialType; cu
             </div>
             <div className="editorial-content space-y-3">
               {editorial.body.map((paragraph, i) => (
-                <p key={i} className="text-xs md:text-sm text-text-secondary leading-relaxed">
+                <p key={i} className="text-sm md:text-base text-text-secondary leading-relaxed">
                   {paragraph}
                 </p>
               ))}

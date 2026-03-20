@@ -46,8 +46,8 @@ export function TargetProfileSection({ targets }: { targets: TargetProfile[] }) 
               {iconMap[target.icon]}
             </span>
             <div className="min-w-0">
-              <p className="text-sm md:text-base font-bold text-text">{target.label}</p>
-              <p className="text-xs md:text-sm text-text-secondary mt-1 leading-relaxed">
+              <p className="text-base md:text-lg font-bold text-text">{target.label}</p>
+              <p className="text-sm md:text-base text-text-secondary mt-1 leading-relaxed">
                 {target.description.split(/(?<=\.) (?=[''"「])/).map((part, j, arr) => (
                   <span key={j}>
                     {part}{j < arr.length - 1 && <br />}

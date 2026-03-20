@@ -132,13 +132,13 @@ export function ProductCard({ product, className = '', wide = false }: { product
               <span className="text-xs text-text-muted font-medium">{product.brand}</span>
             </div>
 
-            <h3 className="font-bold text-text text-sm md:text-base leading-snug mb-2">{product.name}</h3>
+            <h3 className="font-bold text-text text-base md:text-lg leading-snug mb-2">{product.name}</h3>
             <PriceDisplay product={product} />
 
             <hr className="my-3 border-border/50" />
 
-            <p className="text-xs md:text-sm text-text-secondary leading-relaxed">{product.reason}</p>
-            <p className="mt-2 text-xs md:text-sm text-accent italic">&ldquo;{product.giftMessage}&rdquo;</p>
+            <p className="text-sm md:text-base text-text-secondary leading-relaxed">{product.reason}</p>
+            <p className="mt-2 text-sm md:text-base text-accent italic">&ldquo;{product.giftMessage}&rdquo;</p>
 
             <div className="mt-3 flex flex-wrap gap-1.5">
               {product.evidence.map((ev, i) => (
@@ -220,7 +220,7 @@ export function ProductCard({ product, className = '', wide = false }: { product
         </div>
 
         {/* 상품명 */}
-        <h3 className="font-bold text-text text-sm md:text-base leading-snug mb-2">{product.name}</h3>
+        <h3 className="font-bold text-text text-base md:text-lg leading-snug mb-2">{product.name}</h3>
 
         {/* 가격 - 강조 */}
         <PriceDisplay product={product} />
@@ -229,11 +229,11 @@ export function ProductCard({ product, className = '', wide = false }: { product
         <hr className="my-3 border-border/50" />
 
         {/* 추천 이유 */}
-        <p className="text-xs md:text-sm text-text-secondary leading-relaxed">
+        <p className="text-sm md:text-base text-text-secondary leading-relaxed">
           {product.reason}
         </p>
 
-        <p className="mt-2 text-xs md:text-sm text-accent italic">
+        <p className="mt-2 text-sm md:text-base text-accent italic">
           &ldquo;{product.giftMessage}&rdquo;
         </p>
 
