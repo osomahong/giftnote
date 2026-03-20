@@ -76,7 +76,10 @@
     { "name": "content_url", "scope": "EVENT", "description": "content url" },
     { "name": "platform", "scope": "EVENT", "description": "platform" },
     { "name": "menu_type", "scope": "EVENT", "description": "menu type" },
-    { "name": "menu_title", "scope": "EVENT", "description": "menu title" }
+    { "name": "menu_title", "scope": "EVENT", "description": "menu title" },
+    { "name": "index", "scope": "EVENT", "description": "index" },
+    { "name": "item_name", "scope": "EVENT", "description": "item name" },
+    { "name": "item_brand", "scope": "EVENT", "description": "item brand" }
   ],
   "conversionEvents": [
     "purchase_click"

@@ -187,7 +187,7 @@ export function ProductCard({ product, className = '', wide = false }: { product
       )}
 
       {/* 이미지 영역 - 클릭 시 구매 링크 */}
-      <a href={product.affiliateUrl} target="_blank" rel="nofollow sponsored noopener" className="block">
+      <a href={product.affiliateUrl} target="_blank" rel="nofollow sponsored noopener" className="block" data-track="purchase-btn" data-track-name={product.name} data-track-brand={product.brand} data-track-price={product.price} data-track-platform={product.source}>
         {product.image ? (
           <div className="w-full aspect-[4/3] bg-bg-warm">
             <img
