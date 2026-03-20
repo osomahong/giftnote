@@ -21,9 +21,9 @@
       "name": "purchase_click",
       "trigger": "구매 버튼 클릭",
       "parameters": {
-        "item_name": { "type": "string", "custom": false },
-        "item_brand": { "type": "string", "custom": false },
-        "price": { "type": "number", "custom": false },
+        "item_name": { "type": "string", "custom": true },
+        "item_brand": { "type": "string", "custom": true },
+        "price": { "type": "number", "custom": true },
         "platform": { "type": "string", "custom": true, "example": "coupang" },
         "content_id": { "type": "string", "custom": true, "example": "fitness-boyfriend-30k-birthday" }
       },
