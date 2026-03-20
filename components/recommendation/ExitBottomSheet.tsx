@@ -23,29 +23,18 @@ export function ExitBottomSheet({ recommendations }: { recommendations: SheetRec
   useEffect(() => {
     if (shown || !recommendations.length) return
 
-    const handleVisibilityChange = () => {
-      if (document.visibilityState === 'hidden' && Date.now() - startTime > 10000) {
-        // User switching tabs after 10+ seconds
-      }
-    }
-
     const handlePopState = () => {
       if (Date.now() - startTime > 10000 && !shown) {
         setVisible(true)
         setShown(true)
-        // Push state back so user doesn't actually navigate away
         window.history.pushState(null, '', window.location.href)
       }
     }
 
-    // Push initial state
     window.history.pushState(null, '', window.location.href)
-
-    document.addEventListener('visibilitychange', handleVisibilityChange)
     window.addEventListener('popstate', handlePopState)
 
     return () => {
-      document.removeEventListener('visibilitychange', handleVisibilityChange)
       window.removeEventListener('popstate', handlePopState)
     }
   }, [shown, recommendations.length, startTime])
@@ -54,13 +43,16 @@ export function ExitBottomSheet({ recommendations }: { recommendations: SheetRec
 
   return (
     <div className="fixed inset-0 z-50 flex items-end justify-center">
-      <div className="absolute inset-0 bg-black/30" onClick={dismiss} />
-      <div className="relative w-full max-w-lg bg-white rounded-t-2xl p-6 pb-8 animate-slide-in-bottom" style={{ maxHeight: '55vh' }}>
-        <div className="flex items-center justify-between mb-4">
-          <h3 className="text-base font-bold text-text">잠깐, 이런 선물은 어때요?</h3>
+      <div className="absolute inset-0 bg-black/50 backdrop-blur-sm" onClick={dismiss} />
+      <div className="relative w-full max-w-lg bg-text rounded-t-3xl p-6 pb-8 animate-slide-in-bottom" style={{ maxHeight: '60vh' }}>
+        {/* 핸들 바 */}
+        <div className="w-10 h-1 bg-white/20 rounded-full mx-auto mb-5" />
+
+        <div className="flex items-center justify-between mb-5">
+          <h3 className="text-lg font-bold text-white">잠깐, 이런 선물은 어때요?</h3>
           <button
             onClick={dismiss}
-            className="w-8 h-8 flex items-center justify-center text-text-muted hover:text-text rounded-full"
+            className="w-8 h-8 flex items-center justify-center text-white/50 hover:text-white rounded-full hover:bg-white/10 transition-colors"
             aria-label="닫기"
           >
             <svg className="w-5 h-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
@@ -69,19 +61,19 @@ export function ExitBottomSheet({ recommendations }: { recommendations: SheetRec
             </svg>
           </button>
         </div>
-        <div className="space-y-3 overflow-y-auto" style={{ maxHeight: 'calc(55vh - 80px)' }}>
+        <div className="space-y-3 overflow-y-auto" style={{ maxHeight: 'calc(60vh - 100px)' }}>
           {recommendations.slice(0, 3).map((rec) => (
             <Link
               key={rec.slug}
               href={`/collection/${rec.slug}/`}
               onClick={dismiss}
-              className="block p-3 rounded-xl border border-border-light hover:border-accent/30 transition-colors"
+              className="block p-4 rounded-2xl bg-white/10 border border-white/10 hover:bg-white/15 hover:border-white/20 transition-colors"
             >
-              <p className="text-sm font-medium text-text mb-1.5">{rec.title}</p>
+              <p className="text-base font-bold text-white mb-2">{rec.title}</p>
               <div className="flex flex-wrap gap-1.5">
-                <span className="text-xs px-2 py-0.5 rounded-full bg-tag-persona text-tag-persona-text">{rec.persona}</span>
-                <span className="text-xs px-2 py-0.5 rounded-full bg-tag-budget text-tag-budget-text">{rec.budgetTier}</span>
-                <span className="text-xs px-2 py-0.5 rounded-full bg-tag-occasion text-tag-occasion-text">{rec.occasion}</span>
+                <span className="text-xs px-2.5 py-1 rounded-full bg-white/15 text-white/80 font-medium">{rec.persona}</span>
+                <span className="text-xs px-2.5 py-1 rounded-full bg-white/15 text-white/80 font-medium">{rec.budgetTier}</span>
+                <span className="text-xs px-2.5 py-1 rounded-full bg-occasion-coral/30 text-occasion-coral font-medium">{rec.occasion}</span>
               </div>
             </Link>
           ))}
