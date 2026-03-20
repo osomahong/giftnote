@@ -8,6 +8,6 @@ export default function robots(): MetadataRoute.Robots {
       userAgent: '*',
       allow: '/',
     },
-    sitemap: 'https://gift.example.com/sitemap.xml',
+    sitemap: 'https://giftnote.kr/sitemap-index.xml',
   }
 }

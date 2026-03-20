@@ -7,7 +7,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "prebuild": "tsx scripts/build-recommendations.ts && tsx scripts/build-tag-index.ts",
+    "prebuild": "tsx scripts/build-recommendations.ts && tsx scripts/build-tag-index.ts && tsx scripts/build-sitemaps.ts",
     "generate:og": "tsx scripts/generate-og-images.ts"
   },
   "dependencies": {
