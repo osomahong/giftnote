@@ -53,7 +53,7 @@ products:
       https://search.shopping.naver.com/search/all?query=UV%20LED%20%EC%B9%BC%EC%86%8C%EB%8F%85%EA%B8%B0
     affiliateUrl: >-
       https://search.shopping.naver.com/search/all?query=UV%20LED%20%EC%B9%BC%EC%86%8C%EB%8F%85%EA%B8%B0
-    image: 'https://img.danawa.com/prod_img/500000/209/426/img/6426209_1.jpg'
+    image: 'https://img.danawa.com/prod_img/500000/624/412/img/16412624_1.jpg'
     category: 주방용품
     isEditorPick: false
     reason: 자외선 LED로 칼과 도마를 살균하는 위생 가전입니다. 신혼집 주방에 위생적인 환경을 만들어주는 실용적인 선물입니다.
@@ -68,7 +68,7 @@ products:
         text: 칼소독기 검색량 꾸준히 상승
         value: 전년 대비 42% 증가
   - rank: 3
-    name: 글라스락 스마트 양념통 세트
+    name: 글라스락 버큠 양념통 5종 세트
     brand: 글라스락
     price: 17000
     source: naver
@@ -110,12 +110,12 @@ products:
         text: 시라쿠스 그릇 검색량 꾸준히 상위
         value: '월 25,000건'
   - rank: 5
-    name: 르크루제 미니 코코트
+    name: 르크루제 미니 타진
     brand: 르크루제
     price: 28000
     source: naver
-    sourceUrl: 'https://search.shopping.naver.com/search/all?query=르크루제+미니+코코트'
-    affiliateUrl: 'https://search.shopping.naver.com/search/all?query=르크루제+미니+코코트'
+    sourceUrl: 'https://search.shopping.naver.com/search/all?query=르크루제+미니+타진'
+    affiliateUrl: 'https://search.shopping.naver.com/search/all?query=르크루제+미니+타진'
     image: 'https://img.danawa.com/prod_img/500000/265/738/img/4738265_1.jpg'
     category: 주방소품
     isEditorPick: false
@@ -128,7 +128,7 @@ products:
         value: 조회수 32만
       - type: trend
         source: 네이버 트렌드
-        text: 르크루제 미니 코코트 검색량 상위
+        text: 르크루제 미니 타진 검색량 상위
         value: '월 8,500건'
 targets:
   - label: 친구나 지인의 신혼집 집들이에 초대받은 분
@@ -156,13 +156,13 @@ faqs:
       양념통(17,000원)이나 시라쿠스 그릇(25,000원)도 좋아요.
   - question: 신혼부부 집들이에 디퓨저 말고 다른 선물은?
     answer: >-
-      시라쿠스 빈티지 그릇 세트(25,000원)는 식탁 분위기를 바꿔주고, 르크루제 미니 코코트(28,000원)는 브랜드 가치가 높아
+      시라쿠스 빈티지 그릇 세트(25,000원)는 식탁 분위기를 바꿔주고, 르크루제 미니 타진(28,000원)는 브랜드 가치가 높아
       특별한 선물이 됩니다.
   - question: 집들이 선물로 주방용품 줘도 괜찮을까요?
     answer: >-
       새 집에서 가장 많이 시간을 보내는 공간이 주방입니다. UV 칼소독기나 글라스락 양념통처럼 위생적이고 실용적인 주방용품은 누구나
       환영하는 선물이에요.
-  - question: 르크루제 미니 코코트는 실제로 쓸 수 있나요?
+  - question: 르크루제 미니 타진는 실제로 쓸 수 있나요?
     answer: >-
       계란찜, 스프, 디저트 그릇 등 다용도로 활용 가능합니다. 오븐과 전자레인지에서 모두 사용할 수 있어 실용성이 높고, 쓰지 않을 때는
       인테리어 소품 역할도 합니다.
