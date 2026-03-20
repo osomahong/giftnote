@@ -2,7 +2,11 @@
 <sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <sitemap>
     <loc>https://giftnote.kr/sitemap-main.xml</loc>
-    <lastmod>2026-03-20T02:25:35.308Z</lastmod>
+    <lastmod>2026-03-20T02:49:56.878Z</lastmod>
+  </sitemap>
+  <sitemap>
+    <loc>https://giftnote.kr/sitemap-eric.xml</loc>
+    <lastmod>2026-03-20T00:00:00.000Z</lastmod>
   </sitemap>
   <sitemap>
     <loc>https://giftnote.kr/sitemap-yuna.xml</loc>
@@ -11,6 +15,10 @@
   <sitemap>
     <loc>https://giftnote.kr/sitemap-hana.xml</loc>
     <lastmod>2026-03-19T00:00:00.000Z</lastmod>
+  </sitemap>
+  <sitemap>
+    <loc>https://giftnote.kr/sitemap-leo.xml</loc>
+    <lastmod>2026-03-20T00:00:00.000Z</lastmod>
   </sitemap>
   <sitemap>
     <loc>https://giftnote.kr/sitemap-james.xml</loc>
@@ -23,5 +31,9 @@
   <sitemap>
     <loc>https://giftnote.kr/sitemap-owen.xml</loc>
     <lastmod>2026-03-19T00:00:00.000Z</lastmod>
+  </sitemap>
+  <sitemap>
+    <loc>https://giftnote.kr/sitemap-clair.xml</loc>
+    <lastmod>2026-03-20T00:00:00.000Z</lastmod>
   </sitemap>
 </sitemapindex>

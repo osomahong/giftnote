@@ -26,11 +26,11 @@ products:
     name: 블렌더보틀 프로스택 V2 쉐이커 650ml
     brand: 블렌더보틀
     price: 22000
-    source: coupang
+    source: naver
     sourceUrl: >-
-      https://link.coupang.com/re/AFFSDP?lptag=AF3425199&pageKey=6504473928&itemId=26126604108&vendorItemId=93106950953&traceid=V0-153-2a382b09cb4c2c61&clickBeacon=681c5150-2378-11f1-a6e8-63a5eb31025e%7E3&requestid=20260319184547395291647669&token=31850C%7CMIXED&landing_exp=APP_LANDING_A
+      https://search.shopping.naver.com/search/all?query=%EB%B8%94%EB%A0%8C%EB%8D%94%EB%B3%B4%ED%8B%80%20%ED%94%84%EB%A1%9C%EC%8A%A4%ED%83%9D%20V2%20%EC%89%90%EC%9D%B4%EC%BB%A4%20650ml
     affiliateUrl: >-
-      https://link.coupang.com/re/AFFSDP?lptag=AF3425199&pageKey=6504473928&itemId=26126604108&vendorItemId=93106950953&traceid=V0-153-2a382b09cb4c2c61&clickBeacon=681c5150-2378-11f1-a6e8-63a5eb31025e%7E3&requestid=20260319184547395291647669&token=31850C%7CMIXED&landing_exp=APP_LANDING_A
+      https://search.shopping.naver.com/search/all?query=%EB%B8%94%EB%A0%8C%EB%8D%94%EB%B3%B4%ED%8B%80%20%ED%94%84%EB%A1%9C%EC%8A%A4%ED%83%9D%20V2%20%EC%89%90%EC%9D%B4%EC%BB%A4%20650ml
     image: 'https://img.danawa.com/prod_img/500000/238/447/img/13447238_1.jpg'
     category: 쉐이커
     isEditorPick: true
@@ -49,11 +49,11 @@ products:
     name: 셀렉스 프로틴 너츠바 선물세트 12개입
     brand: 셀렉스
     price: 23870
-    source: coupang
+    source: naver
     sourceUrl: >-
-      https://link.coupang.com/re/AFFSDP?lptag=AF3425199&pageKey=7810096703&itemId=21181518208&vendorItemId=78798894390&traceid=V0-153-ade5c79c9819dc2d&requestid=20260319184609017180876947&token=31850C%7CMIXED&landing_exp=APP_LANDING_A
+      https://search.shopping.naver.com/search/all?query=%EC%85%80%EB%A0%89%EC%8A%A4%20%ED%94%84%EB%A1%9C%ED%8B%B4%20%EB%84%88%EC%B8%A0%EB%B0%94%20%EC%84%A0%EB%AC%BC%EC%84%B8%ED%8A%B8%2012%EA%B0%9C%EC%9E%85
     affiliateUrl: >-
-      https://link.coupang.com/re/AFFSDP?lptag=AF3425199&pageKey=7810096703&itemId=21181518208&vendorItemId=78798894390&traceid=V0-153-ade5c79c9819dc2d&requestid=20260319184609017180876947&token=31850C%7CMIXED&landing_exp=APP_LANDING_A
+      https://search.shopping.naver.com/search/all?query=%EC%85%80%EB%A0%89%EC%8A%A4%20%ED%94%84%EB%A1%9C%ED%8B%B4%20%EB%84%88%EC%B8%A0%EB%B0%94%20%EC%84%A0%EB%AC%BC%EC%84%B8%ED%8A%B8%2012%EA%B0%9C%EC%9E%85
     image: 'https://www.selexmall.com/data/upload/product/nutsbar_set1.jpg'
     category: 프로틴바
     isEditorPick: false

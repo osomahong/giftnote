@@ -1,4 +1,25 @@
 {
+  "기념일": [
+    "beauty-girlfriend-30k-anniversary"
+  ],
+  "20대": [
+    "beauty-girlfriend-30k-anniversary",
+    "fitness-boyfriend-30k-birthday",
+    "friend-birthday-20k",
+    "sentimental-girlfriend-20k-birthday",
+    "tech-boyfriend-50k-birthday"
+  ],
+  "여자친구": [
+    "beauty-girlfriend-30k-anniversary",
+    "sentimental-girlfriend-20k-birthday"
+  ],
+  "3만원대": [
+    "beauty-girlfriend-30k-anniversary",
+    "fitness-boyfriend-30k-birthday"
+  ],
+  "뷰티": [
+    "beauty-girlfriend-30k-anniversary"
+  ],
   "감사": [
     "coworker-thankyou-10k",
     "health-parents-50k-thankyou"
@@ -15,20 +36,24 @@
   ],
   "생일": [
     "fitness-boyfriend-30k-birthday",
-    "sentimental-girlfriend-20k-birthday"
-  ],
-  "20대": [
-    "fitness-boyfriend-30k-birthday",
-    "sentimental-girlfriend-20k-birthday"
+    "friend-birthday-20k",
+    "sentimental-girlfriend-20k-birthday",
+    "tech-boyfriend-50k-birthday"
   ],
   "남자친구": [
-    "fitness-boyfriend-30k-birthday"
-  ],
-  "3만원대": [
-    "fitness-boyfriend-30k-birthday"
+    "fitness-boyfriend-30k-birthday",
+    "tech-boyfriend-50k-birthday"
   ],
   "운동": [
     "fitness-boyfriend-30k-birthday"
+  ],
+  "친구": [
+    "friend-birthday-20k"
+  ],
+  "2만원대": [
+    "friend-birthday-20k",
+    "housewarming-interior-20k",
+    "sentimental-girlfriend-20k-birthday"
   ],
   "50대": [
     "health-parents-50k-thankyou"
@@ -37,7 +62,8 @@
     "health-parents-50k-thankyou"
   ],
   "5만원대": [
-    "health-parents-50k-thankyou"
+    "health-parents-50k-thankyou",
+    "tech-boyfriend-50k-birthday"
   ],
   "건강": [
     "health-parents-50k-thankyou"
@@ -45,15 +71,8 @@
   "집들이": [
     "housewarming-interior-20k"
   ],
-  "2만원대": [
-    "housewarming-interior-20k",
-    "sentimental-girlfriend-20k-birthday"
-  ],
   "인테리어": [
     "housewarming-interior-20k"
-  ],
-  "여자친구": [
-    "sentimental-girlfriend-20k-birthday"
   ],
   "감성소품": [
     "sentimental-girlfriend-20k-birthday"

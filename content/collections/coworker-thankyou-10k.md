@@ -27,9 +27,9 @@ products:
     price: 14500
     source: coupang
     sourceUrl: >-
-      https://link.coupang.com/re/AFFSDP?lptag=AF3425199&pageKey=4742558912&itemId=23807218691&vendorItemId=70148255057&traceid=V0-153-9d0759e640fc33f5&requestid=20260319184511193202180069&token=31850C%7CMIXED&landing_exp=APP_LANDING_A
+      https://link.coupang.com/re/AFFSDP?lptag=AF3425199&pageKey=4742558912&itemId=23807218691&vendorItemId=70148255057&traceid=V0-153-9d0759e640fc33f5&requestid=20260320114836574229513830&token=31850C%7CMIXED&landing_exp=APP_LANDING_A
     affiliateUrl: >-
-      https://link.coupang.com/re/AFFSDP?lptag=AF3425199&pageKey=4742558912&itemId=23807218691&vendorItemId=70148255057&traceid=V0-153-9d0759e640fc33f5&requestid=20260319184511193202180069&token=31850C%7CMIXED&landing_exp=APP_LANDING_A
+      https://link.coupang.com/re/AFFSDP?lptag=AF3425199&pageKey=4742558912&itemId=23807218691&vendorItemId=70148255057&traceid=V0-153-9d0759e640fc33f5&requestid=20260320114836574229513830&token=31850C%7CMIXED&landing_exp=APP_LANDING_A
     image: 'https://img.danawa.com/prod_img/500000/243/093/img/7093243_1.jpg'
     category: 쿠키세트
     isEditorPick: true
@@ -50,9 +50,9 @@ products:
     price: 26400
     source: coupang
     sourceUrl: >-
-      https://link.coupang.com/re/AFFSDP?lptag=AF3425199&pageKey=9064435231&itemId=27435087348&vendorItemId=94400526152&traceid=V0-153-79d3f08a8e8763f9&requestid=20260319184518436286645542&token=31850C%7CMIXED&landing_exp=APP_LANDING_A
+      https://link.coupang.com/re/AFFSDP?lptag=AF3425199&pageKey=9064435231&itemId=27435087348&vendorItemId=94400526152&traceid=V0-153-79d3f08a8e8763f9&requestid=20260320114843806208930352&token=31850C%7CMIXED&landing_exp=APP_LANDING_A
     affiliateUrl: >-
-      https://link.coupang.com/re/AFFSDP?lptag=AF3425199&pageKey=9064435231&itemId=27435087348&vendorItemId=94400526152&traceid=V0-153-79d3f08a8e8763f9&requestid=20260319184518436286645542&token=31850C%7CMIXED&landing_exp=APP_LANDING_A
+      https://link.coupang.com/re/AFFSDP?lptag=AF3425199&pageKey=9064435231&itemId=27435087348&vendorItemId=94400526152&traceid=V0-153-79d3f08a8e8763f9&requestid=20260320114843806208930352&token=31850C%7CMIXED&landing_exp=APP_LANDING_A
     image: >-
       https://image.osulloc.com/upload/kr/ko/adminImage/WQ/RY/20241231172220989OK.png
     category: 차
@@ -71,12 +71,12 @@ products:
   - rank: 3
     name: 모리앤 골드라벨 디퓨저 200ml
     brand: 모리앤
-    price: 10620
+    price: 20000
     source: coupang
     sourceUrl: >-
-      https://link.coupang.com/re/AFFSDP?lptag=AF3425199&pageKey=154663458&itemId=445921595&vendorItemId=4104308100&traceid=V0-153-c27290eaf2a809e1&clickBeacon=5b30ab80-2378-11f1-9ffd-e26c1d83bf18%7E3&requestid=20260319184525703012654021&token=31850C%7CMIXED&landing_exp=APP_LANDING_A
+      https://link.coupang.com/re/AFFSDP?lptag=AF3425199&pageKey=154663458&itemId=2920657400&vendorItemId=70909324447&traceid=V0-153-c27290eaf2a809e1&requestid=20260320114850953102636854&token=31850C%7CMIXED&landing_exp=APP_LANDING_A
     affiliateUrl: >-
-      https://link.coupang.com/re/AFFSDP?lptag=AF3425199&pageKey=154663458&itemId=445921595&vendorItemId=4104308100&traceid=V0-153-c27290eaf2a809e1&clickBeacon=5b30ab80-2378-11f1-9ffd-e26c1d83bf18%7E3&requestid=20260319184525703012654021&token=31850C%7CMIXED&landing_exp=APP_LANDING_A
+      https://link.coupang.com/re/AFFSDP?lptag=AF3425199&pageKey=154663458&itemId=2920657400&vendorItemId=70909324447&traceid=V0-153-c27290eaf2a809e1&requestid=20260320114850953102636854&token=31850C%7CMIXED&landing_exp=APP_LANDING_A
     image: >-
       https://moriann.com/web/product/medium/20200618/130769ae68c07f41428cd3b37652400c.jpg
     category: 디퓨저
@@ -95,12 +95,12 @@ products:
   - rank: 4
     name: 오설록 피치 블랙티 티백 20입
     brand: 오설록
-    price: 35900
+    price: 8250
     source: coupang
     sourceUrl: >-
-      https://link.coupang.com/re/AFFSDP?lptag=AF3425199&pageKey=9338147530&itemId=27691526895&vendorItemId=94653367876&traceid=V0-153-71e66bc7c9e2f5cf&requestid=20260319184540196298659817&token=31850C%7CMIXED&landing_exp=APP_LANDING_A
+      https://link.coupang.com/re/AFFSDP?lptag=AF3425199&pageKey=2057997912&itemId=3497941322&vendorItemId=91341407220&traceid=V0-153-19ba53323df672d8&requestid=20260320114858137266311899&token=31850C%7CMIXED&landing_exp=APP_LANDING_A
     affiliateUrl: >-
-      https://link.coupang.com/re/AFFSDP?lptag=AF3425199&pageKey=9338147530&itemId=27691526895&vendorItemId=94653367876&traceid=V0-153-71e66bc7c9e2f5cf&requestid=20260319184540196298659817&token=31850C%7CMIXED&landing_exp=APP_LANDING_A
+      https://link.coupang.com/re/AFFSDP?lptag=AF3425199&pageKey=2057997912&itemId=3497941322&vendorItemId=91341407220&traceid=V0-153-19ba53323df672d8&requestid=20260320114858137266311899&token=31850C%7CMIXED&landing_exp=APP_LANDING_A
     image: 'https://img.danawa.com/prod_img/500000/999/563/img/6563999_1.jpg'
     category: 차
     isEditorPick: false
