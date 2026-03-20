@@ -6,8 +6,8 @@ ageGroup: 30대
 gender: 공통
 interest: 감사선물
 budgetTier: 1만원대
-budgetMin: 8000
-budgetMax: 19999
+budgetMin: 8496
+budgetMax: 43080
 occasion: 감사
 tpo: 직장선물
 tags:
@@ -53,7 +53,8 @@ products:
       https://link.coupang.com/re/AFFSDP?lptag=AF3425199&pageKey=9064435231&itemId=27435087348&vendorItemId=94400526152&traceid=V0-153-79d3f08a8e8763f9&requestid=20260319184518436286645542&token=31850C%7CMIXED&landing_exp=APP_LANDING_A
     affiliateUrl: >-
       https://link.coupang.com/re/AFFSDP?lptag=AF3425199&pageKey=9064435231&itemId=27435087348&vendorItemId=94400526152&traceid=V0-153-79d3f08a8e8763f9&requestid=20260319184518436286645542&token=31850C%7CMIXED&landing_exp=APP_LANDING_A
-    image: 'https://image.osulloc.com/upload/kr/ko/adminImage/WQ/RY/20241231172220989OK.png'
+    image: >-
+      https://image.osulloc.com/upload/kr/ko/adminImage/WQ/RY/20241231172220989OK.png
     category: 차
     isEditorPick: false
     reason: 오설록 브랜드라 포장만으로 센스가 느껴집니다. 유채꽃과 살구 향이 블렌딩된 티백이라 취향을 크게 타지 않습니다.
@@ -76,7 +77,8 @@ products:
       https://link.coupang.com/re/AFFSDP?lptag=AF3425199&pageKey=154663458&itemId=445921595&vendorItemId=4104308100&traceid=V0-153-c27290eaf2a809e1&clickBeacon=5b30ab80-2378-11f1-9ffd-e26c1d83bf18%7E3&requestid=20260319184525703012654021&token=31850C%7CMIXED&landing_exp=APP_LANDING_A
     affiliateUrl: >-
       https://link.coupang.com/re/AFFSDP?lptag=AF3425199&pageKey=154663458&itemId=445921595&vendorItemId=4104308100&traceid=V0-153-c27290eaf2a809e1&clickBeacon=5b30ab80-2378-11f1-9ffd-e26c1d83bf18%7E3&requestid=20260319184525703012654021&token=31850C%7CMIXED&landing_exp=APP_LANDING_A
-    image: 'https://moriann.com/web/product/medium/20200618/130769ae68c07f41428cd3b37652400c.jpg'
+    image: >-
+      https://moriann.com/web/product/medium/20200618/130769ae68c07f41428cd3b37652400c.jpg
     category: 디퓨저
     isEditorPick: false
     reason: 골드라벨 라인은 병 디자인이 고급스러워 책상 위에 두기 좋습니다. 사탕수수 발효 베이스라 향이 자극적이지 않습니다.

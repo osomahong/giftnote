@@ -1,6 +1,6 @@
 import type { Collection } from './types'
 
-const SITE_URL = 'https://gift.example.com'
+const SITE_URL = 'https://giftnote.kr'
 
 export function generateArticleSchema(collection: Collection) {
   return {

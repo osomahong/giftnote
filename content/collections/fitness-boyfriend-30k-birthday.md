@@ -6,8 +6,8 @@ ageGroup: 20대
 gender: 남성
 interest: 운동
 budgetTier: 3만원대
-budgetMin: 25000
-budgetMax: 39999
+budgetMin: 16160
+budgetMax: 37800
 occasion: 생일
 tpo: 생일선물
 tags:
@@ -20,7 +20,7 @@ status: published
 datePublished: '2026-03-19'
 dateModified: '2026-03-19'
 heroSvg: /svg/categories/sports.svg
-curator: leo
+curator: hana
 products:
   - rank: 1
     name: 블렌더보틀 프로스택 V2 쉐이커 650ml
@@ -149,14 +149,14 @@ targets:
     description: 장식보다 매일 사용하는 물건을 좋아하는 타입입니다. 운동 용품은 실제로 쓰이기 때문에 선물 실패 확률이 낮아요.
     icon: check
 editorial:
-  eyebrow: Leo's Note
+  eyebrow: Hana's Note
   body:
-    - 같이 운동하는 친구 생일이라 뭘 줄지 고민했습니다. 운동하는 사람에게 가장 좋은 선물은 매일 쓰는 장비 업그레이드입니다.
+    - 남자친구가 요즘 운동에 빠져서 생일 선물로 뭘 줄지 고민했어요. 운동하는 사람에게 가장 좋은 선물은 매일 쓰는 장비 업그레이드입니다.
     - 3만원대라 부담 없으면서도 퀄리티를 챙길 수 있는 가격대입니다. 실제로 제가 써보고 괜찮았던 제품 위주로 골랐어요.
     - 1위 블렌더보틀은 헬스하는 사람이면 누구나 쓰는 기본 장비입니다. 아직 없다면 가장 먼저 추천하고 싶어요.
   pullQuote:
     text: 매일 쓰이는 선물이 진짜 좋은 선물입니다
-    cite: Leo
+    cite: Hana
 faqs:
   - question: 운동하는 남자친구 생일선물 3만원대로 뭐가 좋을까요?
     answer: >-

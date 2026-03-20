@@ -6,8 +6,8 @@ ageGroup: 20대
 gender: 여성
 interest: 감성소품
 budgetTier: 2만원대
-budgetMin: 15000
-budgetMax: 29999
+budgetMin: 7920
+budgetMax: 37680
 occasion: 생일
 tpo: 생일선물
 tags:
