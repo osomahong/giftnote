@@ -104,7 +104,7 @@ function ProductImage({ product }: { product: Product }) {
 export function ProductCard({ product, className = '', wide = false }: { product: Product; className?: string; wide?: boolean }) {
   if (wide) {
     return (
-      <li itemScope className={`bg-surface rounded-2xl border border-border/50 overflow-hidden relative shadow-sm md:col-span-2 ${className}`}>
+      <li id={`product-${product.rank}`} itemScope className={`bg-surface rounded-2xl border border-border/50 overflow-hidden relative shadow-sm md:col-span-2 ${className}`}>
         {product.isEditorPick && (
           <div className="absolute top-3 left-3 z-10">
             <StickerBadge text="Editor's Pick" colorClass="bg-editor-pick" rotation={-3} />
@@ -179,7 +179,7 @@ export function ProductCard({ product, className = '', wide = false }: { product
   }
 
   return (
-    <li itemScope className={`bg-surface rounded-2xl border border-border/50 overflow-hidden relative shadow-sm ${className}`}>
+    <li id={`product-${product.rank}`} itemScope className={`bg-surface rounded-2xl border border-border/50 overflow-hidden relative shadow-sm ${className}`}>
       {product.isEditorPick && (
         <div className="absolute top-3 left-3 z-10">
           <StickerBadge text="Editor's Pick" colorClass="bg-editor-pick" rotation={-3} />

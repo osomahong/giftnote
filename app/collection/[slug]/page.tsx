@@ -7,6 +7,7 @@ import { Editorial } from '@/components/collection/Editorial'
 import { ProductCard } from '@/components/collection/ProductCard'
 import { RelatedSection } from '@/components/collection/RelatedSection'
 import { FaqSection } from '@/components/collection/FaqSection'
+import { ProductSummary } from '@/components/collection/ProductSummary'
 import { InlineRecommend } from '@/components/recommendation/InlineRecommend'
 import { FloatingBubble } from '@/components/recommendation/FloatingBubble'
 import { ExitBottomSheet } from '@/components/recommendation/ExitBottomSheet'
@@ -98,6 +99,7 @@ export default async function CollectionPage({ params }: Props) {
         ]} />
 
         <PageHeader collection={collection} occasionColor={getOccasionColor(collection.occasion)} />
+        <ProductSummary products={collection.products} />
         <TargetProfileSection targets={collection.targets} />
         <Editorial editorial={collection.editorial} curator={collection.curator ? getCuratorProfile(collection.curator) : null} />
 
