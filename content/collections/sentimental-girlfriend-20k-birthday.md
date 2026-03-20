@@ -2,7 +2,7 @@
 title: 여자친구 생일 감성 선물 추천 2만원대
 description: 여자친구 생일에 센스 있는 감성 선물. 2만원대 예산으로 마음을 전할 수 있는 아이템 5가지를 엄선했습니다.
 persona: 20대 여성
-ageGroup: 20대
+ageGroup: 20대 중반
 gender: 여성
 interest: 감성소품
 budgetTier: 2만원대

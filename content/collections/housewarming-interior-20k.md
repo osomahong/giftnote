@@ -2,7 +2,7 @@
 title: 집들이 선물 추천 2만원대 신혼부부 인테리어 소품
 description: 신혼부부 집들이에 어울리는 인테리어 선물. 2만원대로 공간의 분위기를 바꿔줄 감각적인 아이템 5가지를 엄선했습니다.
 persona: 신혼부부
-ageGroup: 30대
+ageGroup: 30대 초반
 gender: 공통
 interest: 인테리어
 budgetTier: 2만원대

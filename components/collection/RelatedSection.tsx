@@ -39,17 +39,40 @@ function RelatedCard({ collection, section = 'content' }: { collection: Collecti
   )
 }
 
+function extractDecade(ageGroup: string): string {
+  // "20대 중반" → "20대", "50대" → "50대"
+  const match = ageGroup?.match(/\d+대/)
+  return match ? match[0] : ageGroup || ''
+}
+
 function getRelatedByContent(current: Collection, limit = 3): Collection[] {
   return getPublishedCollections()
     .filter(c => c.slug !== current.slug)
     .map(c => {
       let score = 0
+
+      // 성별 (최우선, 5점)
+      if (c.gender === current.gender && c.gender !== '공통') score += 5
+      // 공통 성별도 약한 매칭
+      if (c.gender === '공통' || current.gender === '공통') score += 1
+
+      // 연령대 (우선, 정확히 같으면 4점, 같은 세대면 2점)
+      if (c.ageGroup === current.ageGroup) {
+        score += 4
+      } else if (extractDecade(c.ageGroup) === extractDecade(current.ageGroup)) {
+        score += 2
+      }
+
+      // 상황 (3점)
       if (c.occasion === current.occasion) score += 3
-      if (c.ageGroup === current.ageGroup) score += 2
-      if (c.gender === current.gender && c.gender !== '공통') score += 1
+
+      // 관심사 (2점)
       if (c.interest === current.interest) score += 2
+
+      // 태그 겹침 (1점씩)
       const sharedTags = c.tags?.filter(t => current.tags?.includes(t)).length || 0
       score += sharedTags
+
       return { collection: c, score }
     })
     .filter(r => r.score > 0)

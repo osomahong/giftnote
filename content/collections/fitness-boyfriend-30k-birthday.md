@@ -2,7 +2,7 @@
 title: 운동하는 남자친구 생일 선물 추천 3만원대
 description: '헬스, 러닝 등 운동을 즐기는 남자친구에게 실제로 쓰이는 생일 선물. 3만원대 예산으로 엄선한 운동 용품 5가지.'
 persona: 20대 남성
-ageGroup: 20대
+ageGroup: 20대 후반
 gender: 남성
 interest: 운동
 budgetTier: 3만원대

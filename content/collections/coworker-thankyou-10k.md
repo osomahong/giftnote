@@ -2,7 +2,7 @@
 title: 직장 동료 감사 선물 추천 1만원대 센스 있는 선택
 description: 부담 없이 마음을 전하는 직장 동료 감사 선물. 1만원대로 센스와 품격을 갖춘 아이템 5가지를 골랐습니다.
 persona: 직장 동료
-ageGroup: 30대
+ageGroup: 30대 초반
 gender: 공통
 interest: 감사선물
 budgetTier: 1만원대

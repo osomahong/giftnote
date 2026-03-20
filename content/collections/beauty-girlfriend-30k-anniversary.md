@@ -2,7 +2,7 @@
 title: 여자친구 기념일 뷰티 선물 추천 3만원대
 description: 기념일에 여자친구 마음을 사로잡을 뷰티 선물. 3만원대 예산으로 브랜드 감성까지 챙긴 아이템 5가지를 엄선했습니다.
 persona: 20대 여성
-ageGroup: 20대
+ageGroup: 20대 중반
 gender: 여성
 interest: 뷰티
 budgetTier: 3만원대

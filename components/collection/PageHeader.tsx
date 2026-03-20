@@ -36,7 +36,8 @@ export function PageHeader({ collection, occasionColor }: {
   return (
     <header className="mb-8">
       <div className="flex flex-wrap gap-1.5 justify-start md:justify-center mb-4">
-        <TagChip label={collection.persona} variant="persona" />
+        <TagChip label={collection.ageGroup} variant="persona" />
+        {collection.gender !== '공통' && <TagChip label={collection.gender} variant="persona" />}
         <TagChip label={collection.budgetTier} variant="budget" />
         <TagChip label={collection.occasion} variant="occasion" />
       </div>

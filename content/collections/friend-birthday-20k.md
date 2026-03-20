@@ -1,8 +1,8 @@
 ---
 title: 친구 생일 선물 추천 2만원대 감성소품
-description: '20대 친구 생일에 부담 없이 마음을 전할 수 있는 감성 소품. 2만원대 예산으로 실용적이면서도 센스 있는 아이템 5가지를 골랐습니다.'
+description: 20대 친구 생일에 부담 없이 마음을 전할 수 있는 감성 소품. 2만원대 예산으로 실용적이면서도 센스 있는 아이템 5가지를 골랐습니다.
 persona: 20대 친구
-ageGroup: 20대
+ageGroup: 20대 중반
 gender: 공통
 interest: 감성소품
 budgetTier: 2만원대
@@ -34,7 +34,7 @@ products:
     category: 텀블러
     isEditorPick: true
     reason: 일본 킨토 브랜드 특유의 미니멀 디자인이 남녀 모두에게 잘 어울립니다. 500ml 용량에 가벼워서 매일 들고 다니기 좋아요.
-    giftMessage: '매일 물 마실 때마다 나 생각하라고 이쁜 걸로 골랐어.'
+    giftMessage: 매일 물 마실 때마다 나 생각하라고 이쁜 걸로 골랐어.
     evidence:
       - type: community
         source: 인테리어 커뮤니티
@@ -56,8 +56,8 @@ products:
     image: 'https://img.danawa.com/prod_img/500000/574/200/img/9200574_1.jpg'
     category: 디퓨저
     isEditorPick: false
-    reason: 1만원대에 200ml 용량이라 가성비가 좋고, 향이 2~3개월 지속됩니다. 자취방이나 기숙사에 두면 공간 분위기가 확 달라져요.
-    giftMessage: '네 방이 좋은 향기로 가득 차서 기분 좋은 하루가 됐으면.'
+    reason: '1만원대에 200ml 용량이라 가성비가 좋고, 향이 2~3개월 지속됩니다. 자취방이나 기숙사에 두면 공간 분위기가 확 달라져요.'
+    giftMessage: 네 방이 좋은 향기로 가득 차서 기분 좋은 하루가 됐으면.
     evidence:
       - type: trend
         source: 네이버 쇼핑
@@ -79,8 +79,8 @@ products:
     image: 'https://img.danawa.com/prod_img/500000/020/016/img/32016020_1.jpg'
     category: 핸드크림
     isEditorPick: false
-    reason: 30ml 소용량이라 파우치에 넣고 다니기 좋고, 향이 은은해서 호불호가 적습니다. 선물용 패키지가 예뻐서 포장 걱정이 없어요.
-    giftMessage: '건조한 날에도 네 손은 항상 촉촉하고 부드러웠으면 해.'
+    reason: '30ml 소용량이라 파우치에 넣고 다니기 좋고, 향이 은은해서 호불호가 적습니다. 선물용 패키지가 예뻐서 포장 걱정이 없어요.'
+    giftMessage: 건조한 날에도 네 손은 항상 촉촉하고 부드러웠으면 해.
     evidence:
       - type: trend
         source: 네이버 쇼핑
@@ -102,8 +102,8 @@ products:
     image: 'https://img.danawa.com/prod_img/500000/316/965/img/2965316_1.jpg'
     category: 젤리선물
     isEditorPick: false
-    reason: 980g 대용량이라 선물 받는 순간 임팩트가 있습니다. 여러 명이 나눠 먹어도 충분하고, 유통기한이 길어 천천히 즐길 수 있어요.
-    giftMessage: '달콤한 거 먹으면서 스트레스도 좀 풀고 기분 전환하자.'
+    reason: '980g 대용량이라 선물 받는 순간 임팩트가 있습니다. 여러 명이 나눠 먹어도 충분하고, 유통기한이 길어 천천히 즐길 수 있어요.'
+    giftMessage: 달콤한 거 먹으면서 스트레스도 좀 풀고 기분 전환하자.
     evidence:
       - type: community
         source: 대학생 커뮤니티
@@ -126,7 +126,7 @@ products:
     category: 양말세트
     isEditorPick: false
     reason: 크레오라 소재라 신축성이 좋고 발냄새 억제 기능이 있습니다. 5족 세트라 일주일 내내 돌려 신을 수 있어 실용적이에요.
-    giftMessage: '매일 신는 거라 편하고 질 좋은 걸로 골라서 준비했어.'
+    giftMessage: 매일 신는 거라 편하고 질 좋은 걸로 골라서 준비했어.
     evidence:
       - type: community
         source: 남성 패션 커뮤니티
@@ -141,7 +141,7 @@ targets:
     description: 친구 생일에 너무 비싼 선물은 오히려 부담을 줍니다. 2만원대면 받는 사람도 편하게 기뻐할 수 있는 적정 가격대예요.
     icon: gift
   - label: 실용적인 선물을 선호하는 분
-    description: 장식보다 매일 쓰는 물건을 좋아하는 친구에게 적합합니다. 텀블러, 양말처럼 실제로 쓰이는 아이템이 선물 성공률을 높여요.
+    description: '장식보다 매일 쓰는 물건을 좋아하는 친구에게 적합합니다. 텀블러, 양말처럼 실제로 쓰이는 아이템이 선물 성공률을 높여요.'
     icon: check
   - label: 성별 상관없이 선물할 수 있는 아이템을 찾는 분
     description: 남녀 공용으로 쓸 수 있는 감성 소품 위주로 구성했습니다. 성별에 관계없이 누구에게나 전달할 수 있어요.
@@ -166,8 +166,8 @@ faqs:
       어울려요.
   - question: 코코도르 디퓨저 향은 어떤 걸 골라야 하나요?
     answer: >-
-      퓨어코튼이 가장 무난한 향입니다. 비누 향에 가까워서 호불호가 적고, 자취방이나 사무실 어디에 놔도 잘 어울려요. 강한 향을
-      싫어하는 친구라면 리프레싱에어도 좋습니다.
+      퓨어코튼이 가장 무난한 향입니다. 비누 향에 가까워서 호불호가 적고, 자취방이나 사무실 어디에 놔도 잘 어울려요. 강한 향을 싫어하는
+      친구라면 리프레싱에어도 좋습니다.
   - question: 하리보 젤리 대용량은 유통기한이 얼마나 되나요?
     answer: >-
       하리보 골드베렌 980g은 보통 제조일로부터 18개월 유통기한이 있습니다. 밀봉 상태로 서늘한 곳에 보관하면 충분히 오래 즐길 수
