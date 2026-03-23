@@ -20,6 +20,7 @@ const outputDir = path.join(process.cwd(), 'public')
 interface Collection {
   slug: string
   curator?: string
+  datePublished: string
   dateModified: string
   tags: string[]
 }
@@ -32,12 +33,14 @@ function loadCollections(): Collection[] {
       const { data } = matter(fs.readFileSync(path.join(collectionsDir, f), 'utf8'))
       return {
         slug: f.replace('.md', ''),
+        status: data.status as string,
         curator: data.curator,
+        datePublished: data.datePublished,
         dateModified: data.dateModified,
         tags: data.tags || [],
       }
     })
-    .filter(c => (c as any).status !== 'draft')
+    .filter(c => c.status === 'published' && new Date(c.datePublished) <= new Date())
 }
 
 function xmlUrl(loc: string, lastmod: string, changefreq: string, priority: number): string {
@@ -114,9 +117,12 @@ function main() {
   }
 
   // 3. 사이트맵 인덱스
+  const indexContent = wrapSitemapIndex(sitemapFiles)
   const indexPath = path.join(outputDir, 'sitemap-index.xml')
-  fs.writeFileSync(indexPath, wrapSitemapIndex(sitemapFiles))
-  console.log(`\n  sitemap-index.xml: ${sitemapFiles.length}개 사이트맵`)
+  fs.writeFileSync(indexPath, indexContent)
+  // sitemap.xml도 동일 내용으로 생성 (표준 경로)
+  fs.writeFileSync(path.join(outputDir, 'sitemap.xml'), indexContent)
+  console.log(`\n  sitemap-index.xml + sitemap.xml: ${sitemapFiles.length}개 사이트맵`)
 
   console.log('\n=== 완료 ===')
 }

@@ -12,7 +12,7 @@ if (fs.existsSync(collectionsDir)) {
   for (const f of files) {
     const content = fs.readFileSync(path.join(collectionsDir, f), 'utf8')
     const { data } = matter(content)
-    if (data.status !== 'published') continue
+    if (data.status !== 'published' || new Date(data.datePublished) > new Date()) continue
     const slug = f.replace('.md', '')
     for (const tag of (data.tags || [])) {
       if (!tagIndex[tag]) tagIndex[tag] = []

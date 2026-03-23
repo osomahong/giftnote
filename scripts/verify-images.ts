@@ -56,6 +56,8 @@ async function checkDanawaPcode(imageUrl: string, brandName: string): Promise<{ 
       '브레오': ['breo', 'n1'],
       '리빙센스': ['칼소독기', '칼케어', 'uv'],
       '허브플러스': ['단밤', '바스볼', '입욕제'],
+      '오에스티': ['ost'],
+      '브라운오랄비': ['브라운', 'oral-b', 'oralb', '오랄비'],
     }
 
     const allBrandNames = [brandLower, ...(aliases[brandLower] || [])]

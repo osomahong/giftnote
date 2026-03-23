@@ -19,7 +19,10 @@ export function getAllCollections(): Collection[] {
 }
 
 export function getPublishedCollections(): Collection[] {
-  return getAllCollections().filter(c => c.status === 'published')
+  const now = new Date()
+  return getAllCollections().filter(
+    c => c.status === 'published' && new Date(c.datePublished) <= now
+  )
 }
 
 export function getAllTags(): string[] {

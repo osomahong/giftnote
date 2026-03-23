@@ -27,7 +27,7 @@ function loadCollections(): CollectionMeta[] {
       const { data } = matter(content)
       return { slug: f.replace('.md', ''), ...data } as CollectionMeta
     })
-    .filter(c => c.status === 'published')
+    .filter(c => c.status === 'published' && new Date((c as any).datePublished) <= new Date())
 }
 
 function score(a: CollectionMeta, b: CollectionMeta): number {

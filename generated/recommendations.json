@@ -1,5 +1,70 @@
 {
+  "baby-gift-30k": [
+    {
+      "slug": "coworker-promotion-30k",
+      "title": "직장 선배 승진 선물 추천 3만원대 센스 있는 선택",
+      "persona": "30대 직장선배",
+      "budgetTier": "3만원대",
+      "occasion": "승진"
+    },
+    {
+      "slug": "graduation-gift-30k",
+      "title": "졸업 선물 추천 3만원대 취업 응원 아이템",
+      "persona": "20대 졸업생",
+      "budgetTier": "3만원대",
+      "occasion": "졸업"
+    },
+    {
+      "slug": "housewarming-kitchen-30k",
+      "title": "집들이 선물 추천 3만원대 센스 있는 주방용품",
+      "persona": "신혼부부·자취생",
+      "budgetTier": "3만원대",
+      "occasion": "집들이"
+    },
+    {
+      "slug": "beauty-girlfriend-30k-anniversary",
+      "title": "여자친구 기념일 뷰티 선물 추천 3만원대",
+      "persona": "20대 여성",
+      "budgetTier": "3만원대",
+      "occasion": "기념일"
+    },
+    {
+      "slug": "christmas-boyfriend-30k",
+      "title": "크리스마스 남자친구 선물 추천 3만원대 감성 아이템",
+      "persona": "20대 남성",
+      "budgetTier": "3만원대",
+      "occasion": "크리스마스"
+    },
+    {
+      "slug": "christmas-girlfriend-30k",
+      "title": "크리스마스 여자친구 선물 추천 3만원대",
+      "persona": "20대 여성",
+      "budgetTier": "3만원대",
+      "occasion": "크리스마스"
+    }
+  ],
   "beauty-girlfriend-30k-anniversary": [
+    {
+      "slug": "luxury-girlfriend-50k-anniversary",
+      "title": "여자친구 기념일 선물 추천 5만원대 럭셔리 뷰티",
+      "persona": "20대 여성",
+      "budgetTier": "5만원대",
+      "occasion": "기념일"
+    },
+    {
+      "slug": "sentimental-boyfriend-30k-anniversary",
+      "title": "남자친구 기념일 감성 선물 추천 3만원대",
+      "persona": "20대 남성",
+      "budgetTier": "3만원대",
+      "occasion": "기념일"
+    },
+    {
+      "slug": "christmas-boyfriend-30k",
+      "title": "크리스마스 남자친구 선물 추천 3만원대 감성 아이템",
+      "persona": "20대 남성",
+      "budgetTier": "3만원대",
+      "occasion": "크리스마스"
+    },
     {
       "slug": "fitness-boyfriend-30k-birthday",
       "title": "운동하는 남자친구 생일 선물 추천 3만원대",
@@ -8,17 +73,26 @@
       "occasion": "생일"
     },
     {
-      "slug": "sentimental-girlfriend-20k-birthday",
-      "title": "여자친구 생일 감성 선물 추천 2만원대",
-      "persona": "20대 여성",
-      "budgetTier": "2만원대",
-      "occasion": "생일"
+      "slug": "graduation-gift-30k",
+      "title": "졸업 선물 추천 3만원대 취업 응원 아이템",
+      "persona": "20대 졸업생",
+      "budgetTier": "3만원대",
+      "occasion": "졸업"
     },
     {
-      "slug": "friend-birthday-20k",
-      "title": "친구 생일 선물 추천 2만원대 감성소품",
-      "persona": "20대 친구",
-      "budgetTier": "2만원대",
+      "slug": "baby-gift-30k",
+      "title": "출산 선물 추천 3만원대 30대 친구 실용 아이템",
+      "persona": "30대 친구",
+      "budgetTier": "3만원대",
+      "occasion": "출산"
+    }
+  ],
+  "beauty-girlfriend-50k-birthday": [
+    {
+      "slug": "birthday-wife-50k",
+      "title": "30대 아내 생일 선물 추천 5만원대 럭셔리 감성",
+      "persona": "30대 아내",
+      "budgetTier": "5만원대",
       "occasion": "생일"
     },
     {
@@ -29,18 +103,252 @@
       "occasion": "생일"
     },
     {
-      "slug": "coworker-thankyou-10k",
-      "title": "직장 동료 감사 선물 추천 1만원대 센스 있는 선택",
-      "persona": "직장 동료",
-      "budgetTier": "1만원대",
+      "slug": "luxury-girlfriend-50k-anniversary",
+      "title": "여자친구 기념일 선물 추천 5만원대 럭셔리 뷰티",
+      "persona": "20대 여성",
+      "budgetTier": "5만원대",
+      "occasion": "기념일"
+    },
+    {
+      "slug": "skincare-boyfriend-50k-anniversary",
+      "title": "남자친구 기념일 선물 추천 5만원대 프리미엄 아이템",
+      "persona": "20대 남성",
+      "budgetTier": "5만원대",
+      "occasion": "기념일"
+    },
+    {
+      "slug": "tech-husband-50k-birthday",
+      "title": "40대 남편 생일 테크 선물 추천 5만원대",
+      "persona": "40대 남편",
+      "budgetTier": "5만원대",
+      "occasion": "생일"
+    },
+    {
+      "slug": "beauty-girlfriend-30k-anniversary",
+      "title": "여자친구 기념일 뷰티 선물 추천 3만원대",
+      "persona": "20대 여성",
+      "budgetTier": "3만원대",
+      "occasion": "기념일"
+    }
+  ],
+  "birthday-wife-50k": [
+    {
+      "slug": "beauty-girlfriend-50k-birthday",
+      "title": "여자친구 생일 뷰티 선물 추천 5만원대",
+      "persona": "20대 여성",
+      "budgetTier": "5만원대",
+      "occasion": "생일"
+    },
+    {
+      "slug": "housewarming-premium-50k",
+      "title": "집들이 선물 추천 5만원대 프리미엄 인테리어 소품",
+      "persona": "30대 신혼부부",
+      "budgetTier": "5만원대",
+      "occasion": "집들이"
+    },
+    {
+      "slug": "luxury-girlfriend-50k-anniversary",
+      "title": "여자친구 기념일 선물 추천 5만원대 럭셔리 뷰티",
+      "persona": "20대 여성",
+      "budgetTier": "5만원대",
+      "occasion": "기념일"
+    },
+    {
+      "slug": "tech-boyfriend-50k-birthday",
+      "title": "남자친구 생일 테크 선물 추천 5만원대",
+      "persona": "20대 남성",
+      "budgetTier": "5만원대",
+      "occasion": "생일"
+    },
+    {
+      "slug": "tech-husband-50k-birthday",
+      "title": "40대 남편 생일 테크 선물 추천 5만원대",
+      "persona": "40대 남편",
+      "budgetTier": "5만원대",
+      "occasion": "생일"
+    },
+    {
+      "slug": "wedding-gift-50k",
+      "title": "결혼 축하 선물 추천 5만원대 신혼부부 리빙",
+      "persona": "30대 신혼부부",
+      "budgetTier": "5만원대",
+      "occasion": "결혼"
+    }
+  ],
+  "boyfriend-practical-20k-birthday": [
+    {
+      "slug": "fitness-boyfriend-30k-birthday",
+      "title": "운동하는 남자친구 생일 선물 추천 3만원대",
+      "persona": "20대 남성",
+      "budgetTier": "3만원대",
+      "occasion": "생일"
+    },
+    {
+      "slug": "friend-birthday-20k",
+      "title": "친구 생일 선물 추천 2만원대 감성소품",
+      "persona": "20대 친구",
+      "budgetTier": "2만원대",
+      "occasion": "생일"
+    },
+    {
+      "slug": "sentimental-girlfriend-20k-birthday",
+      "title": "여자친구 생일 감성 선물 추천 2만원대",
+      "persona": "20대 여성",
+      "budgetTier": "2만원대",
+      "occasion": "생일"
+    },
+    {
+      "slug": "graduation-friend-20k",
+      "title": "졸업 선물 추천 2만원대 20대 친구 감성소품",
+      "persona": "20대 친구",
+      "budgetTier": "2만원대",
+      "occasion": "졸업"
+    },
+    {
+      "slug": "thankyou-friend-20k",
+      "title": "친구 감사 선물 추천 2만원대 센스 있는 소품",
+      "persona": "20대 친구",
+      "budgetTier": "2만원대",
       "occasion": "감사"
     },
     {
-      "slug": "health-parents-50k-thankyou",
-      "title": "50대 부모님 건강 선물 추천 5만원대 감사 선물",
-      "persona": "50대 부모님",
-      "budgetTier": "5만원대",
-      "occasion": "감사"
+      "slug": "housewarming-interior-20k",
+      "title": "집들이 선물 추천 2만원대 신혼부부 인테리어 소품",
+      "persona": "신혼부부",
+      "budgetTier": "2만원대",
+      "occasion": "집들이"
+    }
+  ],
+  "christmas-boyfriend-30k": [
+    {
+      "slug": "christmas-girlfriend-30k",
+      "title": "크리스마스 여자친구 선물 추천 3만원대",
+      "persona": "20대 여성",
+      "budgetTier": "3만원대",
+      "occasion": "크리스마스"
+    },
+    {
+      "slug": "beauty-girlfriend-30k-anniversary",
+      "title": "여자친구 기념일 뷰티 선물 추천 3만원대",
+      "persona": "20대 여성",
+      "budgetTier": "3만원대",
+      "occasion": "기념일"
+    },
+    {
+      "slug": "graduation-gift-30k",
+      "title": "졸업 선물 추천 3만원대 취업 응원 아이템",
+      "persona": "20대 졸업생",
+      "budgetTier": "3만원대",
+      "occasion": "졸업"
+    },
+    {
+      "slug": "baby-gift-30k",
+      "title": "출산 선물 추천 3만원대 30대 친구 실용 아이템",
+      "persona": "30대 친구",
+      "budgetTier": "3만원대",
+      "occasion": "출산"
+    },
+    {
+      "slug": "coworker-promotion-30k",
+      "title": "직장 선배 승진 선물 추천 3만원대 센스 있는 선택",
+      "persona": "30대 직장선배",
+      "budgetTier": "3만원대",
+      "occasion": "승진"
+    },
+    {
+      "slug": "fitness-boyfriend-30k-birthday",
+      "title": "운동하는 남자친구 생일 선물 추천 3만원대",
+      "persona": "20대 남성",
+      "budgetTier": "3만원대",
+      "occasion": "생일"
+    }
+  ],
+  "christmas-girlfriend-30k": [
+    {
+      "slug": "christmas-boyfriend-30k",
+      "title": "크리스마스 남자친구 선물 추천 3만원대 감성 아이템",
+      "persona": "20대 남성",
+      "budgetTier": "3만원대",
+      "occasion": "크리스마스"
+    },
+    {
+      "slug": "fitness-boyfriend-30k-birthday",
+      "title": "운동하는 남자친구 생일 선물 추천 3만원대",
+      "persona": "20대 남성",
+      "budgetTier": "3만원대",
+      "occasion": "생일"
+    },
+    {
+      "slug": "graduation-gift-30k",
+      "title": "졸업 선물 추천 3만원대 취업 응원 아이템",
+      "persona": "20대 졸업생",
+      "budgetTier": "3만원대",
+      "occasion": "졸업"
+    },
+    {
+      "slug": "sentimental-boyfriend-30k-anniversary",
+      "title": "남자친구 기념일 감성 선물 추천 3만원대",
+      "persona": "20대 남성",
+      "budgetTier": "3만원대",
+      "occasion": "기념일"
+    },
+    {
+      "slug": "baby-gift-30k",
+      "title": "출산 선물 추천 3만원대 30대 친구 실용 아이템",
+      "persona": "30대 친구",
+      "budgetTier": "3만원대",
+      "occasion": "출산"
+    },
+    {
+      "slug": "beauty-girlfriend-30k-anniversary",
+      "title": "여자친구 기념일 뷰티 선물 추천 3만원대",
+      "persona": "20대 여성",
+      "budgetTier": "3만원대",
+      "occasion": "기념일"
+    }
+  ],
+  "coworker-promotion-30k": [
+    {
+      "slug": "baby-gift-30k",
+      "title": "출산 선물 추천 3만원대 30대 친구 실용 아이템",
+      "persona": "30대 친구",
+      "budgetTier": "3만원대",
+      "occasion": "출산"
+    },
+    {
+      "slug": "friend-30s-birthday-30k",
+      "title": "30대 친구 생일 선물 추천 3만원대 감성 아이템",
+      "persona": "30대 친구",
+      "budgetTier": "3만원대",
+      "occasion": "생일"
+    },
+    {
+      "slug": "housewarming-kitchen-30k",
+      "title": "집들이 선물 추천 3만원대 센스 있는 주방용품",
+      "persona": "신혼부부·자취생",
+      "budgetTier": "3만원대",
+      "occasion": "집들이"
+    },
+    {
+      "slug": "beauty-girlfriend-30k-anniversary",
+      "title": "여자친구 기념일 뷰티 선물 추천 3만원대",
+      "persona": "20대 여성",
+      "budgetTier": "3만원대",
+      "occasion": "기념일"
+    },
+    {
+      "slug": "christmas-boyfriend-30k",
+      "title": "크리스마스 남자친구 선물 추천 3만원대 감성 아이템",
+      "persona": "20대 남성",
+      "budgetTier": "3만원대",
+      "occasion": "크리스마스"
+    },
+    {
+      "slug": "christmas-girlfriend-30k",
+      "title": "크리스마스 여자친구 선물 추천 3만원대",
+      "persona": "20대 여성",
+      "budgetTier": "3만원대",
+      "occasion": "크리스마스"
     }
   ],
   "coworker-thankyou-10k": [
@@ -52,43 +360,50 @@
       "occasion": "감사"
     },
     {
-      "slug": "housewarming-interior-20k",
-      "title": "집들이 선물 추천 2만원대 신혼부부 인테리어 소품",
-      "persona": "신혼부부",
-      "budgetTier": "2만원대",
-      "occasion": "집들이"
-    },
-    {
-      "slug": "beauty-girlfriend-30k-anniversary",
-      "title": "여자친구 기념일 뷰티 선물 추천 3만원대",
-      "persona": "20대 여성",
-      "budgetTier": "3만원대",
-      "occasion": "기념일"
-    },
-    {
-      "slug": "fitness-boyfriend-30k-birthday",
-      "title": "운동하는 남자친구 생일 선물 추천 3만원대",
-      "persona": "20대 남성",
-      "budgetTier": "3만원대",
-      "occasion": "생일"
-    },
-    {
-      "slug": "friend-birthday-20k",
-      "title": "친구 생일 선물 추천 2만원대 감성소품",
+      "slug": "thankyou-friend-20k",
+      "title": "친구 감사 선물 추천 2만원대 센스 있는 소품",
       "persona": "20대 친구",
       "budgetTier": "2만원대",
+      "occasion": "감사"
+    },
+    {
+      "slug": "thankyou-parents-30k",
+      "title": "부모님 감사 선물 추천 3만원대 실용 건강 아이템",
+      "persona": "50대 부모님",
+      "budgetTier": "3만원대",
+      "occasion": "감사"
+    },
+    {
+      "slug": "baby-gift-30k",
+      "title": "출산 선물 추천 3만원대 30대 친구 실용 아이템",
+      "persona": "30대 친구",
+      "budgetTier": "3만원대",
+      "occasion": "출산"
+    },
+    {
+      "slug": "birthday-wife-50k",
+      "title": "30대 아내 생일 선물 추천 5만원대 럭셔리 감성",
+      "persona": "30대 아내",
+      "budgetTier": "5만원대",
       "occasion": "생일"
     },
     {
-      "slug": "sentimental-girlfriend-20k-birthday",
-      "title": "여자친구 생일 감성 선물 추천 2만원대",
-      "persona": "20대 여성",
-      "budgetTier": "2만원대",
-      "occasion": "생일"
+      "slug": "coworker-promotion-30k",
+      "title": "직장 선배 승진 선물 추천 3만원대 센스 있는 선택",
+      "persona": "30대 직장선배",
+      "budgetTier": "3만원대",
+      "occasion": "승진"
     }
   ],
   "fitness-boyfriend-30k-birthday": [
     {
+      "slug": "boyfriend-practical-20k-birthday",
+      "title": "남자친구 생일 선물 추천 2만원대 실용 소품",
+      "persona": "20대 남성",
+      "budgetTier": "2만원대",
+      "occasion": "생일"
+    },
+    {
       "slug": "tech-boyfriend-50k-birthday",
       "title": "남자친구 생일 테크 선물 추천 5만원대",
       "persona": "20대 남성",
@@ -103,39 +418,134 @@
       "occasion": "기념일"
     },
     {
-      "slug": "friend-birthday-20k",
-      "title": "친구 생일 선물 추천 2만원대 감성소품",
-      "persona": "20대 친구",
-      "budgetTier": "2만원대",
-      "occasion": "생일"
-    },
-    {
-      "slug": "sentimental-girlfriend-20k-birthday",
-      "title": "여자친구 생일 감성 선물 추천 2만원대",
+      "slug": "christmas-girlfriend-30k",
+      "title": "크리스마스 여자친구 선물 추천 3만원대",
       "persona": "20대 여성",
-      "budgetTier": "2만원대",
+      "budgetTier": "3만원대",
+      "occasion": "크리스마스"
+    },
+    {
+      "slug": "friend-30s-birthday-30k",
+      "title": "30대 친구 생일 선물 추천 3만원대 감성 아이템",
+      "persona": "30대 친구",
+      "budgetTier": "3만원대",
       "occasion": "생일"
     },
     {
-      "slug": "coworker-thankyou-10k",
-      "title": "직장 동료 감사 선물 추천 1만원대 센스 있는 선택",
-      "persona": "직장 동료",
-      "budgetTier": "1만원대",
-      "occasion": "감사"
+      "slug": "graduation-gift-30k",
+      "title": "졸업 선물 추천 3만원대 취업 응원 아이템",
+      "persona": "20대 졸업생",
+      "budgetTier": "3만원대",
+      "occasion": "졸업"
+    }
+  ],
+  "friend-30s-birthday-30k": [
+    {
+      "slug": "coworker-promotion-30k",
+      "title": "직장 선배 승진 선물 추천 3만원대 센스 있는 선택",
+      "persona": "30대 직장선배",
+      "budgetTier": "3만원대",
+      "occasion": "승진"
     },
     {
-      "slug": "health-parents-50k-thankyou",
-      "title": "50대 부모님 건강 선물 추천 5만원대 감사 선물",
+      "slug": "fitness-boyfriend-30k-birthday",
+      "title": "운동하는 남자친구 생일 선물 추천 3만원대",
+      "persona": "20대 남성",
+      "budgetTier": "3만원대",
+      "occasion": "생일"
+    },
+    {
+      "slug": "graduation-gift-30k",
+      "title": "졸업 선물 추천 3만원대 취업 응원 아이템",
+      "persona": "20대 졸업생",
+      "budgetTier": "3만원대",
+      "occasion": "졸업"
+    },
+    {
+      "slug": "housewarming-kitchen-30k",
+      "title": "집들이 선물 추천 3만원대 센스 있는 주방용품",
+      "persona": "신혼부부·자취생",
+      "budgetTier": "3만원대",
+      "occasion": "집들이"
+    },
+    {
+      "slug": "practical-parents-30k-birthday",
+      "title": "부모님 생일 실용 선물 추천 3만원대",
       "persona": "50대 부모님",
-      "budgetTier": "5만원대",
-      "occasion": "감사"
+      "budgetTier": "3만원대",
+      "occasion": "생일"
+    },
+    {
+      "slug": "baby-gift-30k",
+      "title": "출산 선물 추천 3만원대 30대 친구 실용 아이템",
+      "persona": "30대 친구",
+      "budgetTier": "3만원대",
+      "occasion": "출산"
     }
   ],
   "friend-birthday-20k": [
     {
+      "slug": "boyfriend-practical-20k-birthday",
+      "title": "남자친구 생일 선물 추천 2만원대 실용 소품",
+      "persona": "20대 남성",
+      "budgetTier": "2만원대",
+      "occasion": "생일"
+    },
+    {
       "slug": "sentimental-girlfriend-20k-birthday",
       "title": "여자친구 생일 감성 선물 추천 2만원대",
       "persona": "20대 여성",
+      "budgetTier": "2만원대",
+      "occasion": "생일"
+    },
+    {
+      "slug": "graduation-friend-20k",
+      "title": "졸업 선물 추천 2만원대 20대 친구 감성소품",
+      "persona": "20대 친구",
+      "budgetTier": "2만원대",
+      "occasion": "졸업"
+    },
+    {
+      "slug": "housewarming-interior-20k",
+      "title": "집들이 선물 추천 2만원대 신혼부부 인테리어 소품",
+      "persona": "신혼부부",
+      "budgetTier": "2만원대",
+      "occasion": "집들이"
+    },
+    {
+      "slug": "thankyou-friend-20k",
+      "title": "친구 감사 선물 추천 2만원대 센스 있는 소품",
+      "persona": "20대 친구",
+      "budgetTier": "2만원대",
+      "occasion": "감사"
+    },
+    {
+      "slug": "beauty-girlfriend-50k-birthday",
+      "title": "여자친구 생일 뷰티 선물 추천 5만원대",
+      "persona": "20대 여성",
+      "budgetTier": "5만원대",
+      "occasion": "생일"
+    }
+  ],
+  "graduation-friend-20k": [
+    {
+      "slug": "sentimental-girlfriend-20k-birthday",
+      "title": "여자친구 생일 감성 선물 추천 2만원대",
+      "persona": "20대 여성",
+      "budgetTier": "2만원대",
+      "occasion": "생일"
+    },
+    {
+      "slug": "boyfriend-practical-20k-birthday",
+      "title": "남자친구 생일 선물 추천 2만원대 실용 소품",
+      "persona": "20대 남성",
+      "budgetTier": "2만원대",
+      "occasion": "생일"
+    },
+    {
+      "slug": "friend-birthday-20k",
+      "title": "친구 생일 선물 추천 2만원대 감성소품",
+      "persona": "20대 친구",
       "budgetTier": "2만원대",
       "occasion": "생일"
     },
@@ -147,18 +557,27 @@
       "occasion": "집들이"
     },
     {
-      "slug": "fitness-boyfriend-30k-birthday",
-      "title": "운동하는 남자친구 생일 선물 추천 3만원대",
-      "persona": "20대 남성",
-      "budgetTier": "3만원대",
-      "occasion": "생일"
+      "slug": "thankyou-friend-20k",
+      "title": "친구 감사 선물 추천 2만원대 센스 있는 소품",
+      "persona": "20대 친구",
+      "budgetTier": "2만원대",
+      "occasion": "감사"
     },
     {
-      "slug": "tech-boyfriend-50k-birthday",
-      "title": "남자친구 생일 테크 선물 추천 5만원대",
-      "persona": "20대 남성",
-      "budgetTier": "5만원대",
-      "occasion": "생일"
+      "slug": "graduation-gift-30k",
+      "title": "졸업 선물 추천 3만원대 취업 응원 아이템",
+      "persona": "20대 졸업생",
+      "budgetTier": "3만원대",
+      "occasion": "졸업"
+    }
+  ],
+  "graduation-gift-30k": [
+    {
+      "slug": "baby-gift-30k",
+      "title": "출산 선물 추천 3만원대 30대 친구 실용 아이템",
+      "persona": "30대 친구",
+      "budgetTier": "3만원대",
+      "occasion": "출산"
     },
     {
       "slug": "beauty-girlfriend-30k-anniversary",
@@ -168,64 +587,187 @@
       "occasion": "기념일"
     },
     {
-      "slug": "coworker-thankyou-10k",
-      "title": "직장 동료 감사 선물 추천 1만원대 센스 있는 선택",
-      "persona": "직장 동료",
-      "budgetTier": "1만원대",
+      "slug": "christmas-boyfriend-30k",
+      "title": "크리스마스 남자친구 선물 추천 3만원대 감성 아이템",
+      "persona": "20대 남성",
+      "budgetTier": "3만원대",
+      "occasion": "크리스마스"
+    },
+    {
+      "slug": "christmas-girlfriend-30k",
+      "title": "크리스마스 여자친구 선물 추천 3만원대",
+      "persona": "20대 여성",
+      "budgetTier": "3만원대",
+      "occasion": "크리스마스"
+    },
+    {
+      "slug": "fitness-boyfriend-30k-birthday",
+      "title": "운동하는 남자친구 생일 선물 추천 3만원대",
+      "persona": "20대 남성",
+      "budgetTier": "3만원대",
+      "occasion": "생일"
+    },
+    {
+      "slug": "friend-30s-birthday-30k",
+      "title": "30대 친구 생일 선물 추천 3만원대 감성 아이템",
+      "persona": "30대 친구",
+      "budgetTier": "3만원대",
+      "occasion": "생일"
+    }
+  ],
+  "health-parents-100k-holiday": [
+    {
+      "slug": "holiday-parents-50k",
+      "title": "명절 부모님 선물 추천 5만원대 건강식품",
+      "persona": "50대 부모님",
+      "budgetTier": "5만원대",
+      "occasion": "명절"
+    },
+    {
+      "slug": "health-parents-50k-thankyou",
+      "title": "50대 부모님 건강 선물 추천 5만원대 감사 선물",
+      "persona": "50대 부모님",
+      "budgetTier": "5만원대",
       "occasion": "감사"
+    },
+    {
+      "slug": "thankyou-parents-30k",
+      "title": "부모님 감사 선물 추천 3만원대 실용 건강 아이템",
+      "persona": "50대 부모님",
+      "budgetTier": "3만원대",
+      "occasion": "감사"
+    },
+    {
+      "slug": "practical-parents-30k-birthday",
+      "title": "부모님 생일 실용 선물 추천 3만원대",
+      "persona": "50대 부모님",
+      "budgetTier": "3만원대",
+      "occasion": "생일"
+    },
+    {
+      "slug": "baby-gift-30k",
+      "title": "출산 선물 추천 3만원대 30대 친구 실용 아이템",
+      "persona": "30대 친구",
+      "budgetTier": "3만원대",
+      "occasion": "출산"
+    },
+    {
+      "slug": "beauty-girlfriend-30k-anniversary",
+      "title": "여자친구 기념일 뷰티 선물 추천 3만원대",
+      "persona": "20대 여성",
+      "budgetTier": "3만원대",
+      "occasion": "기념일"
     }
   ],
   "health-parents-50k-thankyou": [
     {
-      "slug": "tech-boyfriend-50k-birthday",
-      "title": "남자친구 생일 테크 선물 추천 5만원대",
-      "persona": "20대 남성",
+      "slug": "thankyou-parents-30k",
+      "title": "부모님 감사 선물 추천 3만원대 실용 건강 아이템",
+      "persona": "50대 부모님",
+      "budgetTier": "3만원대",
+      "occasion": "감사"
+    },
+    {
+      "slug": "holiday-parents-50k",
+      "title": "명절 부모님 선물 추천 5만원대 건강식품",
+      "persona": "50대 부모님",
+      "budgetTier": "5만원대",
+      "occasion": "명절"
+    },
+    {
+      "slug": "beauty-girlfriend-50k-birthday",
+      "title": "여자친구 생일 뷰티 선물 추천 5만원대",
+      "persona": "20대 여성",
       "budgetTier": "5만원대",
       "occasion": "생일"
     },
     {
-      "slug": "coworker-thankyou-10k",
-      "title": "직장 동료 감사 선물 추천 1만원대 센스 있는 선택",
-      "persona": "직장 동료",
-      "budgetTier": "1만원대",
+      "slug": "birthday-wife-50k",
+      "title": "30대 아내 생일 선물 추천 5만원대 럭셔리 감성",
+      "persona": "30대 아내",
+      "budgetTier": "5만원대",
+      "occasion": "생일"
+    },
+    {
+      "slug": "housewarming-premium-50k",
+      "title": "집들이 선물 추천 5만원대 프리미엄 인테리어 소품",
+      "persona": "30대 신혼부부",
+      "budgetTier": "5만원대",
+      "occasion": "집들이"
+    },
+    {
+      "slug": "luxury-girlfriend-50k-anniversary",
+      "title": "여자친구 기념일 선물 추천 5만원대 럭셔리 뷰티",
+      "persona": "20대 여성",
+      "budgetTier": "5만원대",
+      "occasion": "기념일"
+    }
+  ],
+  "holiday-parents-50k": [
+    {
+      "slug": "health-parents-50k-thankyou",
+      "title": "50대 부모님 건강 선물 추천 5만원대 감사 선물",
+      "persona": "50대 부모님",
+      "budgetTier": "5만원대",
       "occasion": "감사"
     },
     {
-      "slug": "beauty-girlfriend-30k-anniversary",
-      "title": "여자친구 기념일 뷰티 선물 추천 3만원대",
+      "slug": "beauty-girlfriend-50k-birthday",
+      "title": "여자친구 생일 뷰티 선물 추천 5만원대",
       "persona": "20대 여성",
-      "budgetTier": "3만원대",
+      "budgetTier": "5만원대",
+      "occasion": "생일"
+    },
+    {
+      "slug": "birthday-wife-50k",
+      "title": "30대 아내 생일 선물 추천 5만원대 럭셔리 감성",
+      "persona": "30대 아내",
+      "budgetTier": "5만원대",
+      "occasion": "생일"
+    },
+    {
+      "slug": "housewarming-premium-50k",
+      "title": "집들이 선물 추천 5만원대 프리미엄 인테리어 소품",
+      "persona": "30대 신혼부부",
+      "budgetTier": "5만원대",
+      "occasion": "집들이"
+    },
+    {
+      "slug": "luxury-girlfriend-50k-anniversary",
+      "title": "여자친구 기념일 선물 추천 5만원대 럭셔리 뷰티",
+      "persona": "20대 여성",
+      "budgetTier": "5만원대",
       "occasion": "기념일"
     },
     {
-      "slug": "fitness-boyfriend-30k-birthday",
-      "title": "운동하는 남자친구 생일 선물 추천 3만원대",
+      "slug": "skincare-boyfriend-50k-anniversary",
+      "title": "남자친구 기념일 선물 추천 5만원대 프리미엄 아이템",
       "persona": "20대 남성",
-      "budgetTier": "3만원대",
-      "occasion": "생일"
-    },
-    {
-      "slug": "friend-birthday-20k",
-      "title": "친구 생일 선물 추천 2만원대 감성소품",
-      "persona": "20대 친구",
-      "budgetTier": "2만원대",
-      "occasion": "생일"
-    },
-    {
-      "slug": "housewarming-interior-20k",
-      "title": "집들이 선물 추천 2만원대 신혼부부 인테리어 소품",
-      "persona": "신혼부부",
-      "budgetTier": "2만원대",
-      "occasion": "집들이"
+      "budgetTier": "5만원대",
+      "occasion": "기념일"
     }
   ],
   "housewarming-interior-20k": [
     {
+      "slug": "boyfriend-practical-20k-birthday",
+      "title": "남자친구 생일 선물 추천 2만원대 실용 소품",
+      "persona": "20대 남성",
+      "budgetTier": "2만원대",
+      "occasion": "생일"
+    },
+    {
       "slug": "friend-birthday-20k",
       "title": "친구 생일 선물 추천 2만원대 감성소품",
       "persona": "20대 친구",
       "budgetTier": "2만원대",
       "occasion": "생일"
+    },
+    {
+      "slug": "graduation-friend-20k",
+      "title": "졸업 선물 추천 2만원대 20대 친구 감성소품",
+      "persona": "20대 친구",
+      "budgetTier": "2만원대",
+      "occasion": "졸업"
     },
     {
       "slug": "sentimental-girlfriend-20k-birthday",
@@ -235,11 +777,41 @@
       "occasion": "생일"
     },
     {
-      "slug": "coworker-thankyou-10k",
-      "title": "직장 동료 감사 선물 추천 1만원대 센스 있는 선택",
-      "persona": "직장 동료",
-      "budgetTier": "1만원대",
+      "slug": "thankyou-friend-20k",
+      "title": "친구 감사 선물 추천 2만원대 센스 있는 소품",
+      "persona": "20대 친구",
+      "budgetTier": "2만원대",
       "occasion": "감사"
+    },
+    {
+      "slug": "housewarming-kitchen-30k",
+      "title": "집들이 선물 추천 3만원대 센스 있는 주방용품",
+      "persona": "신혼부부·자취생",
+      "budgetTier": "3만원대",
+      "occasion": "집들이"
+    }
+  ],
+  "housewarming-kitchen-30k": [
+    {
+      "slug": "baby-gift-30k",
+      "title": "출산 선물 추천 3만원대 30대 친구 실용 아이템",
+      "persona": "30대 친구",
+      "budgetTier": "3만원대",
+      "occasion": "출산"
+    },
+    {
+      "slug": "coworker-promotion-30k",
+      "title": "직장 선배 승진 선물 추천 3만원대 센스 있는 선택",
+      "persona": "30대 직장선배",
+      "budgetTier": "3만원대",
+      "occasion": "승진"
+    },
+    {
+      "slug": "friend-30s-birthday-30k",
+      "title": "30대 친구 생일 선물 추천 3만원대 감성 아이템",
+      "persona": "30대 친구",
+      "budgetTier": "3만원대",
+      "occasion": "생일"
     },
     {
       "slug": "beauty-girlfriend-30k-anniversary",
@@ -249,10 +821,98 @@
       "occasion": "기념일"
     },
     {
-      "slug": "fitness-boyfriend-30k-birthday",
-      "title": "운동하는 남자친구 생일 선물 추천 3만원대",
+      "slug": "christmas-boyfriend-30k",
+      "title": "크리스마스 남자친구 선물 추천 3만원대 감성 아이템",
       "persona": "20대 남성",
       "budgetTier": "3만원대",
+      "occasion": "크리스마스"
+    },
+    {
+      "slug": "christmas-girlfriend-30k",
+      "title": "크리스마스 여자친구 선물 추천 3만원대",
+      "persona": "20대 여성",
+      "budgetTier": "3만원대",
+      "occasion": "크리스마스"
+    }
+  ],
+  "housewarming-premium-50k": [
+    {
+      "slug": "birthday-wife-50k",
+      "title": "30대 아내 생일 선물 추천 5만원대 럭셔리 감성",
+      "persona": "30대 아내",
+      "budgetTier": "5만원대",
+      "occasion": "생일"
+    },
+    {
+      "slug": "beauty-girlfriend-50k-birthday",
+      "title": "여자친구 생일 뷰티 선물 추천 5만원대",
+      "persona": "20대 여성",
+      "budgetTier": "5만원대",
+      "occasion": "생일"
+    },
+    {
+      "slug": "health-parents-50k-thankyou",
+      "title": "50대 부모님 건강 선물 추천 5만원대 감사 선물",
+      "persona": "50대 부모님",
+      "budgetTier": "5만원대",
+      "occasion": "감사"
+    },
+    {
+      "slug": "holiday-parents-50k",
+      "title": "명절 부모님 선물 추천 5만원대 건강식품",
+      "persona": "50대 부모님",
+      "budgetTier": "5만원대",
+      "occasion": "명절"
+    },
+    {
+      "slug": "luxury-girlfriend-50k-anniversary",
+      "title": "여자친구 기념일 선물 추천 5만원대 럭셔리 뷰티",
+      "persona": "20대 여성",
+      "budgetTier": "5만원대",
+      "occasion": "기념일"
+    },
+    {
+      "slug": "skincare-boyfriend-50k-anniversary",
+      "title": "남자친구 기념일 선물 추천 5만원대 프리미엄 아이템",
+      "persona": "20대 남성",
+      "budgetTier": "5만원대",
+      "occasion": "기념일"
+    }
+  ],
+  "luxury-girlfriend-50k-anniversary": [
+    {
+      "slug": "beauty-girlfriend-30k-anniversary",
+      "title": "여자친구 기념일 뷰티 선물 추천 3만원대",
+      "persona": "20대 여성",
+      "budgetTier": "3만원대",
+      "occasion": "기념일"
+    },
+    {
+      "slug": "skincare-boyfriend-50k-anniversary",
+      "title": "남자친구 기념일 선물 추천 5만원대 프리미엄 아이템",
+      "persona": "20대 남성",
+      "budgetTier": "5만원대",
+      "occasion": "기념일"
+    },
+    {
+      "slug": "beauty-girlfriend-50k-birthday",
+      "title": "여자친구 생일 뷰티 선물 추천 5만원대",
+      "persona": "20대 여성",
+      "budgetTier": "5만원대",
+      "occasion": "생일"
+    },
+    {
+      "slug": "birthday-wife-50k",
+      "title": "30대 아내 생일 선물 추천 5만원대 럭셔리 감성",
+      "persona": "30대 아내",
+      "budgetTier": "5만원대",
+      "occasion": "생일"
+    },
+    {
+      "slug": "tech-boyfriend-50k-birthday",
+      "title": "남자친구 생일 테크 선물 추천 5만원대",
+      "persona": "20대 남성",
+      "budgetTier": "5만원대",
       "occasion": "생일"
     },
     {
@@ -263,13 +923,122 @@
       "occasion": "감사"
     }
   ],
+  "practical-parents-30k-birthday": [
+    {
+      "slug": "fitness-boyfriend-30k-birthday",
+      "title": "운동하는 남자친구 생일 선물 추천 3만원대",
+      "persona": "20대 남성",
+      "budgetTier": "3만원대",
+      "occasion": "생일"
+    },
+    {
+      "slug": "friend-30s-birthday-30k",
+      "title": "30대 친구 생일 선물 추천 3만원대 감성 아이템",
+      "persona": "30대 친구",
+      "budgetTier": "3만원대",
+      "occasion": "생일"
+    },
+    {
+      "slug": "baby-gift-30k",
+      "title": "출산 선물 추천 3만원대 30대 친구 실용 아이템",
+      "persona": "30대 친구",
+      "budgetTier": "3만원대",
+      "occasion": "출산"
+    },
+    {
+      "slug": "beauty-girlfriend-30k-anniversary",
+      "title": "여자친구 기념일 뷰티 선물 추천 3만원대",
+      "persona": "20대 여성",
+      "budgetTier": "3만원대",
+      "occasion": "기념일"
+    },
+    {
+      "slug": "christmas-boyfriend-30k",
+      "title": "크리스마스 남자친구 선물 추천 3만원대 감성 아이템",
+      "persona": "20대 남성",
+      "budgetTier": "3만원대",
+      "occasion": "크리스마스"
+    },
+    {
+      "slug": "christmas-girlfriend-30k",
+      "title": "크리스마스 여자친구 선물 추천 3만원대",
+      "persona": "20대 여성",
+      "budgetTier": "3만원대",
+      "occasion": "크리스마스"
+    }
+  ],
+  "sentimental-boyfriend-30k-anniversary": [
+    {
+      "slug": "beauty-girlfriend-30k-anniversary",
+      "title": "여자친구 기념일 뷰티 선물 추천 3만원대",
+      "persona": "20대 여성",
+      "budgetTier": "3만원대",
+      "occasion": "기념일"
+    },
+    {
+      "slug": "skincare-boyfriend-50k-anniversary",
+      "title": "남자친구 기념일 선물 추천 5만원대 프리미엄 아이템",
+      "persona": "20대 남성",
+      "budgetTier": "5만원대",
+      "occasion": "기념일"
+    },
+    {
+      "slug": "christmas-girlfriend-30k",
+      "title": "크리스마스 여자친구 선물 추천 3만원대",
+      "persona": "20대 여성",
+      "budgetTier": "3만원대",
+      "occasion": "크리스마스"
+    },
+    {
+      "slug": "graduation-gift-30k",
+      "title": "졸업 선물 추천 3만원대 취업 응원 아이템",
+      "persona": "20대 졸업생",
+      "budgetTier": "3만원대",
+      "occasion": "졸업"
+    },
+    {
+      "slug": "baby-gift-30k",
+      "title": "출산 선물 추천 3만원대 30대 친구 실용 아이템",
+      "persona": "30대 친구",
+      "budgetTier": "3만원대",
+      "occasion": "출산"
+    },
+    {
+      "slug": "christmas-boyfriend-30k",
+      "title": "크리스마스 남자친구 선물 추천 3만원대 감성 아이템",
+      "persona": "20대 남성",
+      "budgetTier": "3만원대",
+      "occasion": "크리스마스"
+    }
+  ],
   "sentimental-girlfriend-20k-birthday": [
+    {
+      "slug": "boyfriend-practical-20k-birthday",
+      "title": "남자친구 생일 선물 추천 2만원대 실용 소품",
+      "persona": "20대 남성",
+      "budgetTier": "2만원대",
+      "occasion": "생일"
+    },
     {
       "slug": "friend-birthday-20k",
       "title": "친구 생일 선물 추천 2만원대 감성소품",
       "persona": "20대 친구",
       "budgetTier": "2만원대",
       "occasion": "생일"
+    },
+    {
+      "slug": "graduation-friend-20k",
+      "title": "졸업 선물 추천 2만원대 20대 친구 감성소품",
+      "persona": "20대 친구",
+      "budgetTier": "2만원대",
+      "occasion": "졸업"
+    },
+    {
+      "slug": "thankyou-friend-20k",
+      "title": "친구 감사 선물 추천 2만원대 센스 있는 소품",
+      "persona": "20대 친구",
+      "budgetTier": "2만원대",
+      "occasion": "감사"
     },
     {
       "slug": "housewarming-interior-20k",
@@ -284,35 +1053,35 @@
       "persona": "20대 여성",
       "budgetTier": "3만원대",
       "occasion": "기념일"
+    }
+  ],
+  "skincare-boyfriend-50k-anniversary": [
+    {
+      "slug": "luxury-girlfriend-50k-anniversary",
+      "title": "여자친구 기념일 선물 추천 5만원대 럭셔리 뷰티",
+      "persona": "20대 여성",
+      "budgetTier": "5만원대",
+      "occasion": "기념일"
     },
     {
-      "slug": "fitness-boyfriend-30k-birthday",
-      "title": "운동하는 남자친구 생일 선물 추천 3만원대",
+      "slug": "sentimental-boyfriend-30k-anniversary",
+      "title": "남자친구 기념일 감성 선물 추천 3만원대",
       "persona": "20대 남성",
       "budgetTier": "3만원대",
-      "occasion": "생일"
+      "occasion": "기념일"
     },
     {
-      "slug": "tech-boyfriend-50k-birthday",
-      "title": "남자친구 생일 테크 선물 추천 5만원대",
-      "persona": "20대 남성",
+      "slug": "beauty-girlfriend-50k-birthday",
+      "title": "여자친구 생일 뷰티 선물 추천 5만원대",
+      "persona": "20대 여성",
       "budgetTier": "5만원대",
       "occasion": "생일"
     },
     {
-      "slug": "coworker-thankyou-10k",
-      "title": "직장 동료 감사 선물 추천 1만원대 센스 있는 선택",
-      "persona": "직장 동료",
-      "budgetTier": "1만원대",
-      "occasion": "감사"
-    }
-  ],
-  "tech-boyfriend-50k-birthday": [
-    {
-      "slug": "fitness-boyfriend-30k-birthday",
-      "title": "운동하는 남자친구 생일 선물 추천 3만원대",
-      "persona": "20대 남성",
-      "budgetTier": "3만원대",
+      "slug": "birthday-wife-50k",
+      "title": "30대 아내 생일 선물 추천 5만원대 럭셔리 감성",
+      "persona": "30대 아내",
+      "budgetTier": "5만원대",
       "occasion": "생일"
     },
     {
@@ -323,9 +1092,106 @@
       "occasion": "감사"
     },
     {
-      "slug": "friend-birthday-20k",
-      "title": "친구 생일 선물 추천 2만원대 감성소품",
-      "persona": "20대 친구",
+      "slug": "holiday-parents-50k",
+      "title": "명절 부모님 선물 추천 5만원대 건강식품",
+      "persona": "50대 부모님",
+      "budgetTier": "5만원대",
+      "occasion": "명절"
+    }
+  ],
+  "tech-boyfriend-50k-birthday": [
+    {
+      "slug": "beauty-girlfriend-50k-birthday",
+      "title": "여자친구 생일 뷰티 선물 추천 5만원대",
+      "persona": "20대 여성",
+      "budgetTier": "5만원대",
+      "occasion": "생일"
+    },
+    {
+      "slug": "fitness-boyfriend-30k-birthday",
+      "title": "운동하는 남자친구 생일 선물 추천 3만원대",
+      "persona": "20대 남성",
+      "budgetTier": "3만원대",
+      "occasion": "생일"
+    },
+    {
+      "slug": "birthday-wife-50k",
+      "title": "30대 아내 생일 선물 추천 5만원대 럭셔리 감성",
+      "persona": "30대 아내",
+      "budgetTier": "5만원대",
+      "occasion": "생일"
+    },
+    {
+      "slug": "luxury-girlfriend-50k-anniversary",
+      "title": "여자친구 기념일 선물 추천 5만원대 럭셔리 뷰티",
+      "persona": "20대 여성",
+      "budgetTier": "5만원대",
+      "occasion": "기념일"
+    },
+    {
+      "slug": "tech-husband-50k-birthday",
+      "title": "40대 남편 생일 테크 선물 추천 5만원대",
+      "persona": "40대 남편",
+      "budgetTier": "5만원대",
+      "occasion": "생일"
+    },
+    {
+      "slug": "health-parents-50k-thankyou",
+      "title": "50대 부모님 건강 선물 추천 5만원대 감사 선물",
+      "persona": "50대 부모님",
+      "budgetTier": "5만원대",
+      "occasion": "감사"
+    }
+  ],
+  "tech-husband-50k-birthday": [
+    {
+      "slug": "beauty-girlfriend-50k-birthday",
+      "title": "여자친구 생일 뷰티 선물 추천 5만원대",
+      "persona": "20대 여성",
+      "budgetTier": "5만원대",
+      "occasion": "생일"
+    },
+    {
+      "slug": "birthday-wife-50k",
+      "title": "30대 아내 생일 선물 추천 5만원대 럭셔리 감성",
+      "persona": "30대 아내",
+      "budgetTier": "5만원대",
+      "occasion": "생일"
+    },
+    {
+      "slug": "tech-boyfriend-50k-birthday",
+      "title": "남자친구 생일 테크 선물 추천 5만원대",
+      "persona": "20대 남성",
+      "budgetTier": "5만원대",
+      "occasion": "생일"
+    },
+    {
+      "slug": "health-parents-50k-thankyou",
+      "title": "50대 부모님 건강 선물 추천 5만원대 감사 선물",
+      "persona": "50대 부모님",
+      "budgetTier": "5만원대",
+      "occasion": "감사"
+    },
+    {
+      "slug": "holiday-parents-50k",
+      "title": "명절 부모님 선물 추천 5만원대 건강식품",
+      "persona": "50대 부모님",
+      "budgetTier": "5만원대",
+      "occasion": "명절"
+    },
+    {
+      "slug": "housewarming-premium-50k",
+      "title": "집들이 선물 추천 5만원대 프리미엄 인테리어 소품",
+      "persona": "30대 신혼부부",
+      "budgetTier": "5만원대",
+      "occasion": "집들이"
+    }
+  ],
+  "thankyou-friend-20k": [
+    {
+      "slug": "boyfriend-practical-20k-birthday",
+      "title": "남자친구 생일 선물 추천 2만원대 실용 소품",
+      "persona": "20대 남성",
       "budgetTier": "2만원대",
       "occasion": "생일"
     },
@@ -337,11 +1203,25 @@
       "occasion": "생일"
     },
     {
-      "slug": "beauty-girlfriend-30k-anniversary",
-      "title": "여자친구 기념일 뷰티 선물 추천 3만원대",
-      "persona": "20대 여성",
-      "budgetTier": "3만원대",
-      "occasion": "기념일"
+      "slug": "friend-birthday-20k",
+      "title": "친구 생일 선물 추천 2만원대 감성소품",
+      "persona": "20대 친구",
+      "budgetTier": "2만원대",
+      "occasion": "생일"
+    },
+    {
+      "slug": "graduation-friend-20k",
+      "title": "졸업 선물 추천 2만원대 20대 친구 감성소품",
+      "persona": "20대 친구",
+      "budgetTier": "2만원대",
+      "occasion": "졸업"
+    },
+    {
+      "slug": "housewarming-interior-20k",
+      "title": "집들이 선물 추천 2만원대 신혼부부 인테리어 소품",
+      "persona": "신혼부부",
+      "budgetTier": "2만원대",
+      "occasion": "집들이"
     },
     {
       "slug": "coworker-thankyou-10k",
@@ -349,6 +1229,94 @@
       "persona": "직장 동료",
       "budgetTier": "1만원대",
       "occasion": "감사"
+    }
+  ],
+  "thankyou-parents-30k": [
+    {
+      "slug": "health-parents-50k-thankyou",
+      "title": "50대 부모님 건강 선물 추천 5만원대 감사 선물",
+      "persona": "50대 부모님",
+      "budgetTier": "5만원대",
+      "occasion": "감사"
+    },
+    {
+      "slug": "baby-gift-30k",
+      "title": "출산 선물 추천 3만원대 30대 친구 실용 아이템",
+      "persona": "30대 친구",
+      "budgetTier": "3만원대",
+      "occasion": "출산"
+    },
+    {
+      "slug": "beauty-girlfriend-30k-anniversary",
+      "title": "여자친구 기념일 뷰티 선물 추천 3만원대",
+      "persona": "20대 여성",
+      "budgetTier": "3만원대",
+      "occasion": "기념일"
+    },
+    {
+      "slug": "christmas-boyfriend-30k",
+      "title": "크리스마스 남자친구 선물 추천 3만원대 감성 아이템",
+      "persona": "20대 남성",
+      "budgetTier": "3만원대",
+      "occasion": "크리스마스"
+    },
+    {
+      "slug": "christmas-girlfriend-30k",
+      "title": "크리스마스 여자친구 선물 추천 3만원대",
+      "persona": "20대 여성",
+      "budgetTier": "3만원대",
+      "occasion": "크리스마스"
+    },
+    {
+      "slug": "coworker-promotion-30k",
+      "title": "직장 선배 승진 선물 추천 3만원대 센스 있는 선택",
+      "persona": "30대 직장선배",
+      "budgetTier": "3만원대",
+      "occasion": "승진"
+    }
+  ],
+  "wedding-gift-50k": [
+    {
+      "slug": "birthday-wife-50k",
+      "title": "30대 아내 생일 선물 추천 5만원대 럭셔리 감성",
+      "persona": "30대 아내",
+      "budgetTier": "5만원대",
+      "occasion": "생일"
+    },
+    {
+      "slug": "beauty-girlfriend-50k-birthday",
+      "title": "여자친구 생일 뷰티 선물 추천 5만원대",
+      "persona": "20대 여성",
+      "budgetTier": "5만원대",
+      "occasion": "생일"
+    },
+    {
+      "slug": "health-parents-50k-thankyou",
+      "title": "50대 부모님 건강 선물 추천 5만원대 감사 선물",
+      "persona": "50대 부모님",
+      "budgetTier": "5만원대",
+      "occasion": "감사"
+    },
+    {
+      "slug": "holiday-parents-50k",
+      "title": "명절 부모님 선물 추천 5만원대 건강식품",
+      "persona": "50대 부모님",
+      "budgetTier": "5만원대",
+      "occasion": "명절"
+    },
+    {
+      "slug": "housewarming-premium-50k",
+      "title": "집들이 선물 추천 5만원대 프리미엄 인테리어 소품",
+      "persona": "30대 신혼부부",
+      "budgetTier": "5만원대",
+      "occasion": "집들이"
+    },
+    {
+      "slug": "luxury-girlfriend-50k-anniversary",
+      "title": "여자친구 기념일 선물 추천 5만원대 럭셔리 뷰티",
+      "persona": "20대 여성",
+      "budgetTier": "5만원대",
+      "occasion": "기념일"
     }
   ]
 }

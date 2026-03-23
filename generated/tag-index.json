@@ -1,32 +1,131 @@
 {
+  "출산": [
+    "baby-gift-30k"
+  ],
+  "30대": [
+    "baby-gift-30k",
+    "birthday-wife-50k",
+    "coworker-promotion-30k",
+    "coworker-thankyou-10k",
+    "friend-30s-birthday-30k",
+    "housewarming-interior-20k",
+    "housewarming-kitchen-30k",
+    "housewarming-premium-50k",
+    "wedding-gift-50k"
+  ],
+  "친구": [
+    "baby-gift-30k",
+    "friend-30s-birthday-30k",
+    "friend-birthday-20k",
+    "graduation-friend-20k",
+    "graduation-gift-30k",
+    "thankyou-friend-20k"
+  ],
+  "3만원대": [
+    "baby-gift-30k",
+    "beauty-girlfriend-30k-anniversary",
+    "christmas-boyfriend-30k",
+    "christmas-girlfriend-30k",
+    "coworker-promotion-30k",
+    "fitness-boyfriend-30k-birthday",
+    "friend-30s-birthday-30k",
+    "graduation-gift-30k",
+    "housewarming-kitchen-30k",
+    "practical-parents-30k-birthday",
+    "sentimental-boyfriend-30k-anniversary",
+    "thankyou-parents-30k"
+  ],
   "기념일": [
-    "beauty-girlfriend-30k-anniversary"
+    "beauty-girlfriend-30k-anniversary",
+    "luxury-girlfriend-50k-anniversary",
+    "sentimental-boyfriend-30k-anniversary",
+    "skincare-boyfriend-50k-anniversary"
   ],
   "20대": [
     "beauty-girlfriend-30k-anniversary",
+    "beauty-girlfriend-50k-birthday",
+    "boyfriend-practical-20k-birthday",
+    "christmas-boyfriend-30k",
+    "christmas-girlfriend-30k",
     "fitness-boyfriend-30k-birthday",
     "friend-birthday-20k",
+    "graduation-friend-20k",
+    "graduation-gift-30k",
+    "luxury-girlfriend-50k-anniversary",
+    "sentimental-boyfriend-30k-anniversary",
     "sentimental-girlfriend-20k-birthday",
-    "tech-boyfriend-50k-birthday"
+    "skincare-boyfriend-50k-anniversary",
+    "tech-boyfriend-50k-birthday",
+    "thankyou-friend-20k"
   ],
   "여자친구": [
     "beauty-girlfriend-30k-anniversary",
+    "beauty-girlfriend-50k-birthday",
+    "christmas-girlfriend-30k",
+    "luxury-girlfriend-50k-anniversary",
     "sentimental-girlfriend-20k-birthday"
   ],
-  "3만원대": [
-    "beauty-girlfriend-30k-anniversary",
-    "fitness-boyfriend-30k-birthday"
-  ],
   "뷰티": [
-    "beauty-girlfriend-30k-anniversary"
+    "beauty-girlfriend-30k-anniversary",
+    "beauty-girlfriend-50k-birthday",
+    "birthday-wife-50k",
+    "luxury-girlfriend-50k-anniversary"
+  ],
+  "생일": [
+    "beauty-girlfriend-50k-birthday",
+    "birthday-wife-50k",
+    "boyfriend-practical-20k-birthday",
+    "fitness-boyfriend-30k-birthday",
+    "friend-30s-birthday-30k",
+    "friend-birthday-20k",
+    "practical-parents-30k-birthday",
+    "sentimental-girlfriend-20k-birthday",
+    "tech-boyfriend-50k-birthday",
+    "tech-husband-50k-birthday"
+  ],
+  "5만원대": [
+    "beauty-girlfriend-50k-birthday",
+    "birthday-wife-50k",
+    "health-parents-50k-thankyou",
+    "holiday-parents-50k",
+    "housewarming-premium-50k",
+    "luxury-girlfriend-50k-anniversary",
+    "skincare-boyfriend-50k-anniversary",
+    "tech-boyfriend-50k-birthday",
+    "tech-husband-50k-birthday",
+    "wedding-gift-50k"
+  ],
+  "남자친구": [
+    "boyfriend-practical-20k-birthday",
+    "christmas-boyfriend-30k",
+    "fitness-boyfriend-30k-birthday",
+    "sentimental-boyfriend-30k-anniversary",
+    "skincare-boyfriend-50k-anniversary",
+    "tech-boyfriend-50k-birthday"
+  ],
+  "2만원대": [
+    "boyfriend-practical-20k-birthday",
+    "friend-birthday-20k",
+    "graduation-friend-20k",
+    "housewarming-interior-20k",
+    "sentimental-girlfriend-20k-birthday",
+    "thankyou-friend-20k"
+  ],
+  "크리스마스": [
+    "christmas-boyfriend-30k",
+    "christmas-girlfriend-30k"
+  ],
+  "승진": [
+    "coworker-promotion-30k"
+  ],
+  "직장선배": [
+    "coworker-promotion-30k"
   ],
   "감사": [
     "coworker-thankyou-10k",
-    "health-parents-50k-thankyou"
-  ],
-  "30대": [
-    "coworker-thankyou-10k",
-    "housewarming-interior-20k"
+    "health-parents-50k-thankyou",
+    "thankyou-friend-20k",
+    "thankyou-parents-30k"
   ],
   "직장동료": [
     "coworker-thankyou-10k"
@@ -34,47 +133,68 @@
   "1만원대": [
     "coworker-thankyou-10k"
   ],
-  "생일": [
-    "fitness-boyfriend-30k-birthday",
-    "friend-birthday-20k",
-    "sentimental-girlfriend-20k-birthday",
-    "tech-boyfriend-50k-birthday"
-  ],
-  "남자친구": [
-    "fitness-boyfriend-30k-birthday",
-    "tech-boyfriend-50k-birthday"
-  ],
   "운동": [
     "fitness-boyfriend-30k-birthday"
   ],
-  "친구": [
-    "friend-birthday-20k"
-  ],
-  "2만원대": [
-    "friend-birthday-20k",
-    "housewarming-interior-20k",
-    "sentimental-girlfriend-20k-birthday"
-  ],
-  "50대": [
-    "health-parents-50k-thankyou"
-  ],
-  "부모님": [
-    "health-parents-50k-thankyou"
-  ],
-  "5만원대": [
-    "health-parents-50k-thankyou",
-    "tech-boyfriend-50k-birthday"
-  ],
-  "건강": [
-    "health-parents-50k-thankyou"
-  ],
-  "집들이": [
-    "housewarming-interior-20k"
-  ],
-  "인테리어": [
-    "housewarming-interior-20k"
+  "졸업": [
+    "graduation-friend-20k",
+    "graduation-gift-30k"
   ],
   "감성소품": [
+    "graduation-friend-20k",
     "sentimental-girlfriend-20k-birthday"
+  ],
+  "명절": [
+    "health-parents-100k-holiday",
+    "holiday-parents-50k"
+  ],
+  "50대": [
+    "health-parents-100k-holiday",
+    "health-parents-50k-thankyou",
+    "holiday-parents-50k",
+    "practical-parents-30k-birthday",
+    "thankyou-parents-30k"
+  ],
+  "부모님": [
+    "health-parents-100k-holiday",
+    "health-parents-50k-thankyou",
+    "holiday-parents-50k",
+    "practical-parents-30k-birthday",
+    "thankyou-parents-30k"
+  ],
+  "10만원대": [
+    "health-parents-100k-holiday"
+  ],
+  "건강": [
+    "health-parents-100k-holiday",
+    "health-parents-50k-thankyou",
+    "holiday-parents-50k",
+    "thankyou-parents-30k"
+  ],
+  "집들이": [
+    "housewarming-interior-20k",
+    "housewarming-kitchen-30k",
+    "housewarming-premium-50k"
+  ],
+  "인테리어": [
+    "housewarming-interior-20k",
+    "housewarming-kitchen-30k",
+    "housewarming-premium-50k",
+    "wedding-gift-50k"
+  ],
+  "40대": [
+    "tech-husband-50k-birthday"
+  ],
+  "남편": [
+    "tech-husband-50k-birthday"
+  ],
+  "테크": [
+    "tech-husband-50k-birthday"
+  ],
+  "결혼": [
+    "wedding-gift-50k"
+  ],
+  "신혼부부": [
+    "wedding-gift-50k"
   ]
 }

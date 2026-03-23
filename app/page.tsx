@@ -6,6 +6,8 @@ import { getPublishedCollections, getAllTags } from '@/lib/content'
 import { getOccasionColor } from '@/lib/occasion-colors'
 import { WaveDivider } from '@/components/layout/WaveDivider'
 import { HeroDecorations } from '@/components/layout/HeroDecorations'
+import { CompactListItem } from '@/components/home/CompactListItem'
+import { CategoryTabs } from '@/components/home/CategoryTabs'
 
 function hasOgImage(slug: string): boolean {
   return fs.existsSync(path.join(process.cwd(), 'public', 'og', `${slug}.png`))
@@ -115,6 +117,40 @@ export default function HomePage() {
     return acc
   }, {})
 
+  // CategoryTabs용 GroupData 변환
+  const occasionGroups = Object.entries(byOccasion).map(([key, items]) => {
+    const cat = TAG_CATEGORIES[key]
+    return {
+      label: cat?.label || `${key} 선물`,
+      emoji: cat?.emoji || '',
+      tagSlug: key,
+      items,
+    }
+  })
+
+  const targetGroups = Object.entries(byTarget).map(([key, items]) => {
+    const cat = TAG_CATEGORIES[key]
+    return {
+      label: cat?.label || `${key} 선물`,
+      emoji: cat?.emoji || '',
+      tagSlug: key,
+      items,
+    }
+  })
+
+  const budgetGroups = Object.entries(byBudget).map(([key, items]) => {
+    const cat = TAG_CATEGORIES[key]
+    return {
+      label: cat?.label || key,
+      emoji: cat?.emoji || '',
+      tagSlug: key,
+      items,
+    }
+  })
+
+  const latestTop = sorted.slice(0, 6)
+  const latestRest = sorted.slice(6)
+
   return (
     <div className="md:snap-none snap-y snap-proximity">
       {/* 히어로 */}
@@ -135,100 +171,42 @@ export default function HomePage() {
 
       <WaveDivider variant="to-warm" />
 
-      {/* 최신 큐레이션 */}
+      {/* 최신 큐레이션 — 상위 6개 풀카드 + 나머지 컴팩트 리스트 */}
       <section className="bg-bg-warm py-8 md:py-10">
         <div className="max-w-5xl mx-auto px-4">
           <h2 className="text-xl font-bold text-text mb-6">최신 큐레이션</h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
-            {sorted.map((c) => (
+            {latestTop.map((c) => (
               <CollectionCard key={c.slug} collection={c} />
             ))}
           </div>
+          {latestRest.length > 0 && (
+            <div className="mt-6 rounded-xl bg-surface/50 overflow-hidden grid grid-cols-1 md:grid-cols-2">
+              {latestRest.map((c) => (
+                <CompactListItem key={c.slug} collection={c} />
+              ))}
+            </div>
+          )}
         </div>
       </section>
 
       <WaveDivider variant="to-default" />
 
-      {/* 상황별 추천 */}
-      {Object.entries(byOccasion).map(([occasion, items]) => {
-        const oc = getOccasionColor(occasion)
-        const cat = TAG_CATEGORIES[occasion]
-        return (
-          <section key={`occ-${occasion}`} className="bg-bg py-8 md:py-10">
-            <div className="max-w-5xl mx-auto px-4">
-              <h2 className="text-xl font-bold text-text mb-6 flex items-center gap-2">
-                <span className={`w-2 h-2 rounded-full ${oc.bar}`} />
-                {cat?.emoji && <span>{cat.emoji}</span>}
-                {occasion} 선물 추천
-              </h2>
-              <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
-                {items.map((c) => (
-                  <CollectionCard key={c.slug} collection={c} />
-                ))}
-              </div>
-            </div>
-          </section>
-        )
-      })}
-
-      {/* 대상별 추천 */}
-      {Object.keys(byTarget).length > 0 && (
-        <>
-          <WaveDivider variant="to-warm" />
-          {Object.entries(byTarget).map(([target, items]) => {
-            const cat = TAG_CATEGORIES[target]
-            return (
-              <section key={`tgt-${target}`} className="bg-bg-warm py-8 md:py-10">
-                <div className="max-w-5xl mx-auto px-4">
-                  <h2 className="text-xl font-bold text-text mb-6">
-                    {cat?.emoji && <span className="mr-2">{cat.emoji}</span>}
-                    {cat?.label || `${target} 선물`} 추천
-                  </h2>
-                  <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
-                    {items.map((c) => (
-                      <CollectionCard key={c.slug} collection={c} />
-                    ))}
-                  </div>
-                </div>
-              </section>
-            )
-          })}
-        </>
-      )}
-
-      {/* 예산별 추천 */}
-      {Object.keys(byBudget).length > 0 && (
-        <>
-          <WaveDivider variant="to-default" />
-          <section className="bg-bg py-8 md:py-10">
-            <div className="max-w-5xl mx-auto px-4">
-              <h2 className="text-xl font-bold text-text mb-6">💰 예산별 선물 추천</h2>
-              <div className="flex flex-wrap gap-3 mb-6">
-                {Object.keys(byBudget).map((budget) => (
-                  <Link
-                    key={budget}
-                    href={`/tag/${budget}/`}
-                    className="px-4 py-2 rounded-xl bg-surface border border-border/50 text-sm font-medium text-text hover:border-accent/50 hover:text-accent transition-all"
-                    data-track="tag-link"
-                    data-track-tag={budget}
-                  >
-                    {budget}
-                  </Link>
-                ))}
-              </div>
-              <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
-                {Object.values(byBudget).flat().map((c) => (
-                  <CollectionCard key={c.slug} collection={c} />
-                ))}
-              </div>
-            </div>
-          </section>
-        </>
-      )}
+      {/* 카테고리별 탐색 — 탭 UI */}
+      <section className="bg-bg py-8 md:py-10">
+        <div className="max-w-5xl mx-auto px-4">
+          <h2 className="text-xl font-bold text-text mb-6">카테고리별 탐색</h2>
+          <CategoryTabs
+            byOccasion={occasionGroups}
+            byTarget={targetGroups}
+            byBudget={budgetGroups}
+          />
+        </div>
+      </section>
 
       <WaveDivider variant="to-warm" />
 
-      {/* 태그 */}
+      {/* 태그로 찾기 */}
       <section className="bg-bg-warm py-8 md:py-10">
         <div className="max-w-5xl mx-auto px-4">
           <h2 className="text-xl font-bold text-text mb-6">태그로 찾기</h2>
